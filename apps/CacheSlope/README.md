@@ -1,0 +1,39 @@
+# CacheSlope
+
+CacheSlope is a Mac menu bar app that shows which folders grew since your last complete scan.
+
+![CacheSlope window with folder growth since the last scan, using sample data](store/screenshots/01-growth.png)
+
+![CacheSlope window with a partial scan that is left out of comparisons, using sample data](store/screenshots/02-partial.png)
+
+## Features
+
+- Compares a new folder scan with the previous complete scan and lists the largest increases first.
+- Marks a scan as partial when it skips symbolic links, cloud files that are not downloaded or unreadable items. Partial scans are not compared.
+- Pins a baseline snapshot, and you can undo a baseline replacement. Sets a growth threshold for each folder.
+- Copies a change report, or reveals a folder in Finder.
+- Includes sample data, so you can try the app without a real folder.
+
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed. Read-only access to folders that you choose in the system folder picker.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/CacheSlope
+swift build -c release
+```
+
+The package depends on `../../kit/MASKit` by path. Clone the whole repository, so that the folder layout stays the same.
+
+## Privacy
+
+Folder names, bookmarks and snapshots stay on your Mac. The app has no accounts, no analytics and makes no network requests. Full policy: [store/privacy.md](store/privacy.md).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).

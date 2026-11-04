@@ -1,8 +1,40 @@
 # ReminderVault
-Universal sandboxed macOS menu bar Markdown ↔ EventKit Reminders sync.
-Build and validate with `python3 -I ../../kit/gate.py .`.
-Core Swift Testing coverage exercises parsing, exact unrelated-line preservation, date validation, and conflict decisions. Sample mode requires no account or credentials; optional live EventKit and provider propagation checks need permissions for user-selected test data. Screenshots are rendered from the actual SwiftUI panel using bundled Sample tasks. The custom icon is drawn with Core Graphics.
 
-Decisions: stable rv HTML comment IDs; append imports to ReminderVault Inbox.md; new tasks use the alphabetically first selected list; compare Markdown file mtime against reminder lastModifiedDate only when both sides diverge from baseline; equal timestamps favor Markdown; never propagate deletions. Revalidate vault text and remote mapped fields before apply. Stop automatic sync on failure and require a new preview. Sample data is isolated. Local baseline writes occur after each committed reminder for retry recovery. No subscription; listing price $4.99.
+ReminderVault is a Mac menu bar app that syncs Markdown checkbox tasks in a folder with your selected Apple Reminders lists.
 
-Imported titles escape backslashes and date symbols to keep literal date-token text intact. Previews show file/list/task identity and both old values plus the proposed mapped fields. Preview failures revoke session approval. Privacy Policy opens bundled storage and deletion details; the hosting owner still needs to update the retained public page.
+![ReminderVault dry-run preview with sample tasks, showing vault and Reminders values before the sync](store/screenshots/readme-02-preview.png)
+
+## Features
+
+- Syncs `- [ ]` tasks in the Markdown files of a folder you choose with the writable Reminders lists you select. The mapping covers title, completion and due date (`📅 YYYY-MM-DD`). Other lines stay unchanged.
+- Shows a dry-run preview of every change before anything is written. Nothing syncs until you apply it.
+- New vault tasks go to the first selected list in alphabetical order. Imported reminders go into `ReminderVault Inbox.md`. A hidden `<!-- rv:... -->` comment links each task to its reminder.
+- If both sides changed, the newest edit wins. Equal times favor the vault. A conflict log records each decision. Deletions are not carried across and are flagged for manual review.
+- The menu lists pending tasks due today or earlier, and undated tasks. Check one off to write the completion back. After you apply a preview, it can sync every minute, every 5 or 15 minutes, or every hour. A failure pauses automatic sync.
+
+A Sample vault lets you try the app. It never touches your reminders.
+
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed. Read and write access to the vault folder you choose. An app-scoped bookmark keeps that access after a restart.
+- Full access to Reminders, which macOS asks for when you connect. The app does not request access to calendar events.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/ReminderVault
+swift build -c release
+```
+
+The package depends on `../../kit/MASKit` by path. Clone the whole repository, so that the folder layout stays the same.
+
+## Privacy
+
+Task processing happens on your Mac. The app has no accounts, analytics or sync server. Your vault storage provider and your Reminders account may sync data on their own. Full policy: [store/privacy.md](store/privacy.md).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).

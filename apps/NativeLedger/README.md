@@ -1,18 +1,38 @@
 # NativeLedger
 
-A macOS 14+ windowed app that keeps a tamper evident ledger of app updates.
+NativeLedger is a Mac app that keeps a hash chained ledger of app updates for the folders and apps you choose.
 
-- Add App: choose one or more `.app` bundles with the file picker. Each gets a read-only app-scope bookmark.
-- Inspect now: records bundle identifier, version, build, architecture, signing identifier, team, declared entitlements, code directory hash and main executable SHA-256. A new entry is appended only when something changed. Each entry stores the hash of the entry before it.
-- Anomalies: silent rebuild, version regression, team change, new entitlement, architecture change.
-- Verify chain names the earliest broken entry. Acknowledge records the reviewed baseline as a chain entry.
-- Export Ledger writes a `.nativeledger` JSON file without bookmarks or paths. Compare with Ledger File reads one from another Mac.
-- Sample (`Open Sample`, or launch with `--ledger-sample`) is synthetic and memory-only.
+![NativeLedger Recent changes view with sample entries and anomaly flags](store/screenshots/01-recent-changes.png)
 
-Targets: `LedgerCore` (library), `NativeLedger` (app), `LedgerCoreTests`, `NativeLedgerAppTests`. No package dependencies.
+![NativeLedger ledger for a sample app with a silent rebuild flag and its timeline](store/screenshots/02-silent-rebuild.png)
 
-Command line modes of the built executable:
-- `--selftest` prints the smoke report JSON. `--smoke` also writes `NSHomeDirectory()/smoke.json`.
-- `--screenshots` renders the five store screenshots to `NSHomeDirectory()/screenshots`. `--render-screenshots <dir>` renders them to a folder.
+## Features
 
-Tests use Swift Testing with the Command Line Tools frameworks (see `kit/swift_test.sh`).
+- Watches a folder, such as Applications, and adds a dated entry when an app in it changes. You can also add a single app. Recent changes lists the entries of the last 7 days.
+- Each entry records the bundle identifier, version, build, architectures, signing team, entitlements, code directory hash, executable SHA-256, privacy usage descriptions, update feed address, background items and the result of the macOS code signature check.
+- Flags silent rebuilds, version regressions, team changes, new background items, new usage descriptions, new entitlements, architecture changes, invalid signatures and changed update feeds. Optional local notifications cover an invalid signature, a team change or a new background item. Alerts are off by default.
+- Each entry stores the SHA-256 of the entry before it. Verify chain names the first entry that does not match. Acknowledge records your reviewed baseline as a new entry.
+- Exports a .nativeledger file without file paths. On another Mac, Compare with Ledger File shows which apps match, differ or exist on one Mac only.
+
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed. Read-only access to folders and apps that you choose in the system file picker, and write access to the place where you save an exported ledger.
+- Notification permission, only if you turn on alerts.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/NativeLedger
+swift build -c release
+```
+
+## Privacy
+
+Ledgers stay in the app's sandbox container on your Mac. The app makes no network connections and has no account and no analytics. Full policy: [store/privacy.md](store/privacy.md).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).

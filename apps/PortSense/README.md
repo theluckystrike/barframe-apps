@@ -1,7 +1,37 @@
 # PortSense
 
-Requires macOS 14 or later. Local charger, battery and USB inspector with separate optional input telemetry, negotiated adapter values, signed battery watts, temperature and estimated time. Sample mode supplies ten external USB devices and an optional internal hub. Notifications schedule background reads; live polling has a 15-second cadence and can wait for active reads. Manual reads and failures can add entries. History keeps up to 60 readings in memory and preserves gaps.
+PortSense is a Mac menu bar app that shows the charger capacity, battery details and USB connections that macOS reports.
 
-Build and verify: `python3 -I ../../kit/gate.py .` from this app folder, or `python3 -I kit/gate.py apps/PortSense` from the workspace root. Tests use Swift Testing. All three screenshots use Sample data and show Power, Connections and History. Screenshots use four-to-seven-word headlines.
+![PortSense Power tab with sample data, showing a 65 W charger, a below-rating warning and battery charge](store/screenshots/readme-screenshot-01.png)
 
-Brand identity comes from the workspace brand.env. Brand and domain remain owner decisions; the seller in brand.env is Michael Lip. Prepared privacy/support HTML is under store/site; no page was published. Privacy Policy and Support always open bundled text while URLs are unresolved; the same buttons use configured HTTPS destinations after brand.env is final. Read privacy always opens the local policy. Hosted URLs must be finalized, hosted and checked before submission. Real attached-device breadth and full VoiceOver navigation remain unknown.
+## Features
+
+- Shows the charger capacity that macOS reports, with input telemetry, negotiated voltage and negotiated current. The menu bar shows the wattage, or the battery percentage when the Mac runs on battery.
+- Warns when the reported capacity is lower than the rating printed on your charger. You enter the rating in Settings.
+- Shows battery charge, health, cycle count, full charge capacity compared with design capacity, signed battery power, temperature and a time estimate.
+- Lists USB devices with vendor, link speed ceiling, bus allocation and port current limit, and flags a USB 3 device at a USB 2 link ceiling. Also lists Thunderbolt devices. You can hide built-in devices.
+- Keeps up to 60 recent charger readings in memory and charts them. It polls every 15 seconds and shows a failed read as a gap with a retry button. Sample mode lets you try all three tabs without attached hardware.
+
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed, with no other entitlements. It reads power and USB details through public IOKit calls and asks for no permissions.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/PortSense
+swift build -c release
+```
+
+The package depends on `../../kit/MASKit` by path. Clone the whole repository, so that the folder layout stays the same.
+
+## Privacy
+
+PortSense reads charger, battery and USB information locally. It has no account and no analytics, and charger history resets when you quit. Full policy: [store/privacy.md](store/privacy.md).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).

@@ -1,13 +1,40 @@
 # RelayNook
 
-Requires macOS 14. Source port from AgentPing; preserve the agentping URL scheme and AgentPing Swift module for hook compatibility. The installed bundle is RelayNook.app.
+RelayNook is a Mac menu bar app that receives events from coding agents and alerts you when a session needs input or finishes.
 
-From this directory run `bash scripts/build.sh`, `bash scripts/test.sh`, or `python3 -I ../../kit/gate.py .`. The shared brand.env supplies the bundle prefix and URLs. Final brand and domain remain owner decisions.
+![RelayNook popover with a waiting count and sample event history](store/screenshots/history.png)
+![RelayNook Setup tab with a Terminal test command and hook snippets](store/screenshots/setup.png)
 
-Open `build/RelayNook.app`. Send test event works without any external agent. Settings offers notification kinds, sound, optional launch at login, privacy and support links, and setup snippets. Copy Terminal test command to exercise authenticated ingress. Keep copied tokens private. Regenerate token invalidates old hooks.
+## Features
 
-The app records up to 200 local events, counts waiting sessions by agent and session, rejects invalid tokens and malformed URLs, limits accepted events to 30 per minute, and coalesces identical notification content for ten seconds. Clear removes events and waiting identities; rejected count remains. Quit flushes pending history writes. No transcript inspection, remote event service, analytics, or process control.
+- Agents send events through the local `agentping://` URL scheme. Each event must carry the installation token. Kinds are waiting, done, error and info.
+- Shows how many sessions are waiting for input, in the menu bar and in the panel. Keeps the last 200 events in local history. You choose which event kinds trigger notifications. Sound is optional.
+- Copies setup snippets for Claude Code hooks, Codex CLI notifications and a generic shell function. You paste them into your own configuration. The app does not change it.
+- Rejects events with a missing or wrong token, accepts at most 30 events per minute, and combines duplicate notifications for 10 seconds. You can regenerate the token.
+- Includes Sample mode, a Send test event button and a Terminal test command that needs no install.
 
-Users install optional hooks themselves. Claude hooks report waiting or response completion. Codex notify reports turn completion only. Generic shell events support waiting, done, error and info. `python3 scripts/verify_snippets.py` runs generated snippets against fictional payloads without modifying agent configuration.
+Codex CLI reports turn completion only. Waiting alerts depend on a hook that sends waiting events.
 
-See store/review_notes.md for manual review steps and ../../units/A3-relay/audit.md for this port's self-audit. The screenshots show isolated Sample data across history, setup and security. No real history or installation token appears.
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed. No network access and no file access outside the app container. The app registers the `agentping` URL scheme and asks for notification permission when you enable notifications.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/RelayNook
+swift build -c release
+```
+
+The Swift package and module are named AgentPing.
+
+## Privacy
+
+Event history, the installation token and preferences stay on your Mac. The app has no account, analytics or remote event service, and does not read agent configuration or transcript files. Full policy: [store/privacy.md](store/privacy.md).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).
