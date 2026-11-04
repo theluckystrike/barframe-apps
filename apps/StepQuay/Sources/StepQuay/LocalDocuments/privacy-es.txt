@@ -1,0 +1,11 @@
+Privacidad de StepQuay
+
+StepQuay guarda títulos, estimaciones, notas para retomar, tiempo activo, registros completados y ajustes en su contenedor local. El desarrollador no recopila datos. No hay acceso de red, análisis, seguimiento, cuentas ni sincronización en la nube.
+
+Sample contiene acciones ficticias separadas de la lista real. Entrar en Sample pausa una acción real en curso. El reposo pausa el reloj y exige Retomar. Al volver a abrir la app, una acción en curso queda pausada.
+
+El historial real caduca al abrir la app, al cambiar la retención y cada minuto mientras está abierta, incluso en Sample. Siempre conserva los registros hasta borrarlos. Borrar historial elimina registros completados y notas sin borrar acciones pendientes. Restablecer datos ilegibles conserva una copia de recuperación local. Eliminar el contenedor elimina los datos. Abrir al iniciar sesión es opcional y está desactivado inicialmente.
+
+Los botones de privacidad y ayuda abren el navegador cuando la dirección está configurada. De lo contrario muestran estos documentos locales. No se envía información de tareas con los enlaces.
+
+Copyright 2026 Michael Lip

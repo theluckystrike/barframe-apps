@@ -1,0 +1,18 @@
+{
+  "name": "CacheSlope",
+  "display_name": "CacheSlope",
+  "executable_target": "CacheSlope",
+  "slug": "cacheslope",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "usage_descriptions": {},
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-only": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/cacheslope/privacy/",
+  "support_url": "https://barframe.com/apps/cacheslope/support/"
+}

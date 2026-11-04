@@ -1,0 +1,15 @@
+{
+  "contact": {
+    "first_name": "Michael",
+    "last_name": "Lip",
+    "email": "shelfdrop.support@gmail.com",
+    "phone": ""
+  },
+  "tracking": false,
+  "data_collected": [],
+  "accessed_api_reasons": {
+    "NSPrivacyAccessedAPICategoryUserDefaults": [
+      "CA92.1"
+    ]
+  }
+}

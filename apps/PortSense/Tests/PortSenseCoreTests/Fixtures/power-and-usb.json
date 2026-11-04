@@ -1,0 +1,10 @@
+{
+  "provenance": "Deterministic hardware cases constructed from public IOPSKeys.h and IOUSBHostFamilyDefinitions.h key definitions. No captured user identifiers.",
+  "adapter": { "Watts": 65, "Name": "USB-C power adapter", "Current": 3250 },
+  "battery": { "Name": "InternalBattery-0", "Type": "InternalBattery", "Current Capacity": 72, "Max Capacity": 100, "Is Charging": true, "Is Charged": false, "BatteryHealth": "Good" },
+  "batteryRegistry": { "CycleCount": 243, "NominalChargeCapacity": 4800, "DesignCapacity": 5000 },
+  "usb": { "USB Product Name": "USB-C storage", "USB Vendor Name": "Fixture manufacturer", "USBSpeed": 5, "idVendor": 4660, "locationID": 33554432, "USBPortType": 5, "UsbPowerSinkAllocation": 896 },
+  "port": { "kUSBWakePortCurrentLimit": 900, "kUSBBusCurrentAllocation": 896 },
+  "builtIn": { "USB Product Name": "Internal hub", "USBSpeed": 3, "USBPortType": 2 },
+  "missing": { "USB Product Name": "Unreported accessory" }
+}

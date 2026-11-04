@@ -1,0 +1,5 @@
+{"type":"assistant","timestamp":"2026-10-12T08:00:00Z","message":{"id":"msg-a","usage":{"input_tokens":1000,"output_tokens":200,"cache_creation_input_tokens":300,"cache_read_input_tokens":500}}}
+{"type":"assistant","timestamp":"2026-10-12T08:00:01Z","message":{"id":"msg-a","usage":{"input_tokens":1000,"output_tokens":400,"cache_creation_input_tokens":300,"cache_read_input_tokens":500}}}
+{"type":"assistant","timestamp":"2026-10-12T09:00:00.000Z","message":{"id":"msg-b","usage":{"input_tokens":800,"output_tokens":200}}}
+{"type":"user","timestamp":"2026-10-12T09:10:00Z","message":{"content":"Fixture text is ignored"}}
+{"type":"assistant","timestamp":"2026-10-08T09:00:00Z","message":{"id":"msg-c","usage":{"input_tokens":9000,"output_tokens":1000}}}

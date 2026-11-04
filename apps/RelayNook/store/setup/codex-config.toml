@@ -1,0 +1,1 @@
+notify = ["sh", "-c", "exec \"$HOME/.local/bin/agentping-hook\" codex \"$1\"", "agentping"]

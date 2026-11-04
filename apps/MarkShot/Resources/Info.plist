@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>MarkShot Screenshot Markup</string>
+	<key>CFBundleExecutable</key>
+	<string>MarkShot</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.michaellip.markshot</string>
+	<key>CFBundleName</key>
+	<string>MarkShot</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>MASPrivacyPolicyURL</key>
+	<string>https://barframe.com/apps/markshot/privacy/</string>
+	<key>MASSupportURL</key>
+	<string>https://barframe.com/apps/markshot/support/</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Michael Lip</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Capture the screen, a window, or an area you choose for local annotation.</string>
+</dict>
+</plist>

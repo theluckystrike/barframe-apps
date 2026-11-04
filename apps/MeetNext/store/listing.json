@@ -1,0 +1,21 @@
+{
+  "name": "MeetNext",
+  "subtitle": "Meeting countdown & timeline",
+  "keywords": "join,links,upcoming,alert,calendar,reminder,busy,schedule,agenda,event",
+  "description": "MeetNext shows your next meeting title and a live countdown in the menu bar.\n\nClick it to see today's busy and free periods, a marker for the current time and the start times of your next five events. Choose the calendars you want to include in Settings.\n\nWhen the next meeting has a supported link, you can open it with Join, including before the meeting starts. MeetNext finds Zoom, Google Meet, Microsoft Teams and Webex links in event URLs, locations and notes. It opens the original invitation link in your browser or meeting app. MeetNext is independent of Zoom, Google Meet, Microsoft Teams and Webex, and none of those services endorses the app.\n\nWith your permission, the app reads events for today and tomorrow. Calendar processing stays on your Mac, and the app leaves out all-day events and events with no duration. You can turn on local meeting reminders and launch at login. Both are optional.\n\nTry Sample from the main window or Settings to explore example events without granting calendar access. Filter the sample calendars and test reminders. You can watch the countdowns as the example events approach, and use the Sample Join button to open a preview without connecting to a real meeting.\n\nMeetNext has no account, analytics or developer data collection.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Keep a meeting countdown in your menu bar. Open the next call with Join and check today's busy periods without opening your calendar.",
+  "privacy_url": "https://barframe.com/apps/meetnext/privacy/",
+  "support_url": "https://barframe.com/apps/meetnext/support/",
+  "privacy_policy": "https://barframe.com/apps/meetnext/privacy/",
+  "support": "https://barframe.com/apps/meetnext/support/",
+  "privacy_path": "/apps/meetnext/privacy",
+  "support_path": "/apps/meetnext/support",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "",
+  "price_usd": 3.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "First release.",
+  "marketing_url": "https://barframe.com/apps/meetnext/",
+  "bundle_id": "com.michaellip.meetnext"
+}

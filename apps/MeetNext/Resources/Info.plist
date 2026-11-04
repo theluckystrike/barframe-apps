@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>MeetNext</string>
+	<key>CFBundleExecutable</key>
+	<string>MeetNext</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.michaellip.meetnext</string>
+	<key>CFBundleName</key>
+	<string>MeetNext</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>MASPrivacyPolicyURL</key>
+	<string>https://barframe.com/apps/meetnext/privacy/</string>
+	<key>MASSupportURL</key>
+	<string>https://barframe.com/apps/meetnext/support/</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>MeetNext shows your calendar events in the menu bar so you can see the next meeting and join it with one click. Events stay on your Mac.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Michael Lip</string>
+</dict>
+</plist>

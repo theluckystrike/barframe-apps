@@ -1,0 +1,20 @@
+{
+  "name": "MarkShot",
+  "display_name": "MarkShot Screenshot Markup",
+  "executable_target": "MarkShot",
+  "slug": "markshot",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.productivity",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-write": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/markshot/privacy/",
+  "support_url": "https://barframe.com/apps/markshot/support/",
+  "usage_descriptions": {
+    "NSScreenCaptureUsageDescription": "Capture the screen, a window, or an area you choose for local annotation."
+  }
+}

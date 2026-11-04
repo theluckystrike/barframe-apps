@@ -1,0 +1,22 @@
+{
+  "name": "CacheSlope",
+  "subtitle": "Find folders that keep growing",
+  "keywords": "disk,space,usage,storage,size,directory,snapshot,baseline,delta,analyzer,threshold,scanner,tracker",
+  "description": "CacheSlope compares folder snapshots and shows which folders have grown since your previous complete scan.\n\nChoose a folder to grant read only access. Background scans group logical file sizes by immediate child folder and show the largest increases first. File contents are not read.\n\nPin a baseline for later comparisons and undo a baseline replacement. Set a growth threshold for each folder. Reveal a folder in Finder or copy a change report when you need to investigate.\n\nSkipped symbolic links, unavailable cloud files, and cancelled scans produce partial results. Partial scans are excluded from comparisons. Logical file bytes do not represent space you can necessarily reclaim. CacheSlope does not delete files.\n\nManual scanning is the default. Optional interval scans run while the app is awake without overlapping. Open the report with Shift Command C or choose Shift Command G in Settings.\n\nTry Sample explores fictional BuildCache and ProjectAssets folders. Sample actions do not read real folders. You can remove saved roots and their local snapshot history.\n\nFolder names, bookmarks, and snapshots stay on your Mac. There are no accounts, analytics, or app network calls. Copied reports can include folder names.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "See which folders grew since your last session. Compare complete snapshots, pin a baseline, and review the largest increases before your disk fills up.",
+  "privacy_url": "https://barframe.com/apps/cacheslope/privacy/",
+  "support_url": "https://barframe.com/apps/cacheslope/support/",
+  "privacy_policy": "https://barframe.com/apps/cacheslope/privacy/",
+  "support": "https://barframe.com/apps/cacheslope/support/",
+  "privacy_path": "/apps/cacheslope/privacy/",
+  "support_path": "/apps/cacheslope/support/",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "\u2022 Choose a folder to grant read only access.\n\u2022 Pin a baseline for later comparisons and undo a baseline replacement.\n\u2022 Skipped symbolic links, unavailable cloud files, and cancelled scans produce partial results.",
+  "marketing_url": "https://barframe.com/apps/cacheslope/",
+  "bundle_id": "com.michaellip.cacheslope",
+  "screenshots_use_sample_data": true
+}

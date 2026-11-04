@@ -1,0 +1,19 @@
+{
+  "name": "MarkShot Screenshot Markup",
+  "subtitle": "Arrows, annotations and steps",
+  "keywords": "capture,arrow,annotation,pixelate,image,annotate,blur,crop,highlight,editor,clipboard",
+  "description": "MarkShot captures screenshots from your menu bar and lets you add annotations before sharing them.\n\nCapture an area, a window or a full display. Live capture needs Screen Recording permission. If access is denied, the app explains how to allow it in System Settings. For an area capture, drag a rectangle over the selected display. Press Escape to cancel.\n\nPoint out what matters with an arrow. For a longer explanation, add text beside the relevant detail and use numbered steps or highlights to show someone what to do next. Blur or pixelate a region to obscure it, or crop the image to remove the parts you don't need. Changed your mind about a crop or annotation? Undo and redo let you revise those edits before exporting the image.\n\nCopy the finished PNG to your clipboard, save it in a folder you choose, or drag it into another app. MarkShot keeps your last 10 captures as PNGs on your Mac. Reopen a saved capture when you need to add another annotation, keeping in mind that earlier edits are already flattened into the PNG. Clear the history from the menu.\n\nIn Settings, choose the shortcut key for area capture and add the optional modifier if another app already uses your preferred combination. Some combinations may already be used by macOS or another app. You can also save a preferred folder and turn on launch at login.\n\nTry the Sample editor first. Its bundled example image lets you test the annotation tools and PNG export without granting Screen Recording permission. Captures, history and settings stay on your Mac. MarkShot doesn't upload your screenshots and needs no account. You'll find Privacy Policy and Support inside the app if you need details about local storage or help using the controls.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Capture a screenshot and add arrows or numbered steps. Copy the finished PNG, save it to a folder, or drag it into another app.",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "public.app-category.utilities",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/markshot/support/",
+  "privacy_path": "/apps/markshot/privacy/",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/markshot/privacy/",
+  "support": "https://barframe.com/apps/markshot/support/",
+  "marketing_url": "https://barframe.com/apps/markshot/",
+  "bundle_id": "com.michaellip.markshot"
+}

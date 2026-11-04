@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>RevPulse privacy</title><body><main style="max-width:48rem;margin:3rem auto;font:18px system-ui;white-space:pre-wrap">RevPulse Privacy Policy
+Effective: October 14, 2026
+
+RevPulse displays payment revenue from your Stripe account. Michael Lip does not receive your key or revenue data. There is no analytics, telemetry, advertising or tracking.
+
+Your restricted API key stays in macOS Keychain until you choose Settings &gt; Remove key. Removing the application alone can leave the Keychain item; remove the key first. Removing the key also clears the live summary and local notification event identifiers.
+
+The app makes read-only HTTPS API requests to api.stripe.com using an ephemeral session with no URL cache, disk cache or cookie storage. Revenue data stays in memory until the next refresh, a switch to Sample mode, key removal or app exit. It is not written to disk. Stripe retains its own account data under its policies; removing a key from RevPulse does not delete that data.
+
+Refresh interval, goal and notification choices remain in local app preferences. Enabled notifications store the UTC date and notified event identifiers in preferences to prevent repeats; older dates are discarded on the next live refresh with event processing. Removing your key deletes these identifiers. macOS may keep delivered notifications until you clear them in Notification Center.
+
+Sample data is generated locally and contains no real customer details. Automatic notifications and launch at login are off by default and require your choice. Sample alert buttons send local notifications only when explicitly pressed. macOS manages notification permission and login-item approval.
+
+Support and website buttons open your browser. The websites have their own hosting logs and policies. The complete policy is always available here offline, even if the hosted copy is older or unavailable.
+
+Contact: Michael Lip — support@barframe.com
+© 2026 Michael Lip
+</main></body></html>

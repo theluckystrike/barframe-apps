@@ -1,0 +1,11 @@
+Ayuda de StepQuay
+
+Añade una acción con título y estimación positiva. Iniciar siguiente empieza una tarea nueva. Interrumpir guarda una nota obligatoria y pausa el tiempo. Tras posponer una tarea interrumpida o deshacer su finalización, lee la nota y pulsa Retomar. Mostrar lista conserva todos los controles actuales y muestra qué acciones caben en los minutos disponibles. Las acciones que no caben permanecen en orden.
+
+Probar Sample abre una lista ficticia sin cuentas ni credenciales. Ajustes permite restablecerla. Comando coma abre Ajustes. Comando R retoma, Comando I interrumpe y Comando F completa. El botón de la barra abre el panel si el atajo global no está disponible.
+
+Ajustes controla duración, tiempo en la barra, atajo, idioma, retención y Sample. El historial real caduca al abrir la app, al cambiar la retención y cada minuto mientras está abierta, incluso en Sample. Siempre conserva registros hasta borrarlos. Borrar historial elimina registros de la lista mostrada sin borrar tareas pendientes. El reposo exige Retomar.
+
+Los datos permanecen en este Mac. Si no se pueden leer, Ajustes ofrece Recuperar datos guardados o Restablecer lista guardada. Restablecer conserva una copia local.
+
+Copyright 2026 Michael Lip

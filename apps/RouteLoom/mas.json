@@ -1,0 +1,16 @@
+{
+  "name": "RouteLoom",
+  "display_name": "RouteLoom Connection Report",
+  "executable_target": "RouteLoom",
+  "slug": "routeloom",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.network.client": true
+  },
+  "privacy_url": "https://barframe.com/apps/routeloom/privacy/",
+  "support_url": "https://barframe.com/apps/routeloom/support/"
+}

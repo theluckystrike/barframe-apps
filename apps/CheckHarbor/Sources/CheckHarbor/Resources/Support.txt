@@ -1,0 +1,13 @@
+CheckHarbor support
+
+Choose Try Sample in the main window to explore fictional workflows without an account. Acknowledge and Snooze preserve unresolved failures. Simulate recovery closes only a matching episode. Simulate stale shows unavailable data. Reset Sample restores the fixtures. Sample links show local previews.
+
+Open Settings with Command comma. Add a GitHub.com owner and repository for live data. Public repositories need no token where API limits permit. Private repositories need an optional fine grained token with Actions read access. Never include a token in a support request.
+
+If refresh fails, check the displayed authentication, rate limit or unavailable state. Polling works while the app is open. Limited API history and polling gaps can miss runs. The app does not fetch source or logs or rerun workflows.
+
+Choose another shortcut in Settings if registration fails. Open the panel from the menu bar at any time.
+
+Choose recovered history retention in Settings. Delete local history and repositories clears local metadata. Remove credentials deletes the Keychain token separately.
+
+Developer and seller Michael Lip

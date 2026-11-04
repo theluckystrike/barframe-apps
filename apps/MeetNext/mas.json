@@ -1,0 +1,19 @@
+{
+  "name": "MeetNext",
+  "display_name": "MeetNext",
+  "executable_target": "MeetNext",
+  "slug": "meetnext",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.productivity",
+  "min_os": "14.0",
+  "usage_descriptions": {
+    "NSCalendarsFullAccessUsageDescription": "MeetNext shows your calendar events in the menu bar so you can see the next meeting and join it with one click. Events stay on your Mac."
+  },
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.personal-information.calendars": true
+  },
+  "privacy_url": "https://barframe.com/apps/meetnext/privacy/",
+  "support_url": "https://barframe.com/apps/meetnext/support/"
+}

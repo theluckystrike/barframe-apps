@@ -1,0 +1,16 @@
+{
+  "name": "KeyOverlap",
+  "display_name": "KeyOverlap",
+  "executable_target": "KeyOverlap",
+  "slug": "keyoverlap",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.productivity",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-only": true
+  },
+  "privacy_url": "https://barframe.com/apps/keyoverlap/privacy/",
+  "support_url": "https://barframe.com/apps/keyoverlap/support/"
+}

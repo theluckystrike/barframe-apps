@@ -1,0 +1,21 @@
+{
+  "name": "KeyOverlap",
+  "subtitle": "Check shortcut plan conflicts",
+  "keywords": "keyboard,hotkey,binding,combination,mapping,modifier,command,chord,collision,scope,context,layout",
+  "description": "KeyOverlap checks the keyboard shortcuts you enter and flags overlaps before you change your apps.\n\nSave a command, chord, app scope, and optional context. Matching chords in overlapping scopes are definite overlaps. Missing scope information produces a possible overlap. Different apps and contexts you declare mutually exclusive can remain separate.\n\nContext exclusions are assumptions you supply. KeyOverlap does not discover installed shortcuts or promise systemwide availability.\n\nPreview a candidate without changing saved records. Stage replacements and compare their effect before applying them to your local plan. Copy a checklist to make changes manually in the target apps.\n\nImport a documented JSON plan from a file you choose. Invalid rows leave existing records unchanged. Search by command, app, or chord. Open the planner with Command Option K or set another shortcut.\n\nTry Sample explores fictional commands and proposed replacements without changing your live plan. Settings include local plan deletion.\n\nPlans stay on your Mac. KeyOverlap does not listen to typing or inspect other apps. There are no accounts, analytics, cloud sync, or network requests. Clipboard copies happen only when you choose Copy.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Plan keyboard shortcuts before you apply them. Spot definite overlaps in the same scope and possible overlaps when scope information is missing.",
+  "privacy_url": "https://barframe.com/apps/keyoverlap/privacy/",
+  "support_url": "https://barframe.com/apps/keyoverlap/support/",
+  "privacy_policy": "https://barframe.com/apps/keyoverlap/privacy/",
+  "support": "https://barframe.com/apps/keyoverlap/support/",
+  "privacy_path": "/apps/keyoverlap/privacy/",
+  "support_path": "/apps/keyoverlap/support/",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "",
+  "price_usd": 2.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "\u2022 Save a command, chord, app scope, and optional context.\n\u2022 Context exclusions are assumptions you supply.\n\u2022 Preview a candidate without changing saved records.",
+  "marketing_url": "https://barframe.com/apps/keyoverlap/",
+  "bundle_id": "com.michaellip.keyoverlap"
+}

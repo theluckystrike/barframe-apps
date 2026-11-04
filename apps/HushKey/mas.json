@@ -1,0 +1,15 @@
+{
+  "name": "HushKey",
+  "display_name": "HushKey Mic Mute Hotkey",
+  "executable_target": "HushKey",
+  "slug": "hushkey",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true
+  },
+  "privacy_url": "https://barframe.com/apps/hushkey/privacy/",
+  "support_url": "https://barframe.com/apps/hushkey/support/"
+}

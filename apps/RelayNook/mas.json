@@ -1,0 +1,26 @@
+{
+  "name": "RelayNook",
+  "display_name": "RelayNook",
+  "executable_target": "AgentPing",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.developer-tools",
+  "min_os": "14.0",
+  "slug": "relaynook",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true
+  },
+  "usage_descriptions": {
+    "CFBundleURLTypes": [
+      {
+        "CFBundleTypeRole": "Viewer",
+        "CFBundleURLName": "RelayNook Events",
+        "CFBundleURLSchemes": [
+          "agentping"
+        ]
+      }
+    ]
+  },
+  "privacy_url": "https://barframe.com/apps/relaynook/privacy/",
+  "support_url": "https://barframe.com/apps/relaynook/support/"
+}

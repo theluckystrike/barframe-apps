@@ -1,0 +1,25 @@
+{
+  "hooks" : {
+    "Notification" : [
+      {
+        "hooks" : [
+          {
+            "command" : "\"$HOME/.local/bin/agentping-hook\" waiting",
+            "type" : "command"
+          }
+        ],
+        "matcher" : "permission_prompt|elicitation_dialog|elicitation_url_dialog|agent_needs_input"
+      }
+    ],
+    "Stop" : [
+      {
+        "hooks" : [
+          {
+            "command" : "\"$HOME/.local/bin/agentping-hook\" done",
+            "type" : "command"
+          }
+        ]
+      }
+    ]
+  }
+}

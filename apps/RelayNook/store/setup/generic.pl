@@ -1,0 +1,1 @@
+use strict; use warnings; die 'Expected six fields' unless @ARGV == 6; my @keys=qw(agent kind title project session token); sub esc { my $text=decode('UTF-8',$_[0],Encode::FB_CROAK); return join('',map { sprintf('%%%02X',$_) } unpack('C*',encode('UTF-8',$text))); } print 'agentping://event?'.join('&',map { $keys[$_].'='.esc($ARGV[$_]) } 0..5);

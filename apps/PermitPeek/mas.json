@@ -1,0 +1,18 @@
+{
+  "name": "PermitPeek",
+  "display_name": "PermitPeek",
+  "executable_target": "PermitPeek",
+  "slug": "permitpeek",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "usage_descriptions": {},
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-only": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/permitpeek/privacy/",
+  "support_url": "https://barframe.com/apps/permitpeek/support/"
+}

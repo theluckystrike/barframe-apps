@@ -1,0 +1,15 @@
+{
+  "name": "Starglass",
+  "display_name": "Starglass Night Sky Planner",
+  "executable_target": "Starglass",
+  "slug": "starglass",
+  "version": "1.0.0",
+  "build": "3",
+  "min_os": "14.0",
+  "category": "public.app-category.weather",
+  "privacy_url": "https://barframe.com/apps/starglass/privacy/",
+  "support_url": "https://barframe.com/apps/starglass/support/",
+  "entitlements": {
+    "com.apple.security.network.client": true
+  }
+}

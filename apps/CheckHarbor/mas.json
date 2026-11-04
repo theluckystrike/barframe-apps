@@ -1,0 +1,23 @@
+{
+  "name": "CheckHarbor",
+  "display_name": "CheckHarbor",
+  "executable_target": "CheckHarbor",
+  "slug": "checkharbor",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.developer-tools",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.network.client": true
+  },
+  "privacy_url": "https://barframe.com/apps/checkharbor/privacy/",
+  "support_url": "https://barframe.com/apps/checkharbor/support/",
+  "usage_descriptions": {
+    "CFBundleLocalizations": [
+      "en",
+      "es"
+    ],
+    "CFBundleDevelopmentRegion": "en"
+  }
+}

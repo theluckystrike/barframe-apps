@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>RelayNook</string>
+	<key>CFBundleExecutable</key>
+	<string>RelayNook</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.michaellip.relaynook</string>
+	<key>CFBundleName</key>
+	<string>RelayNook</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>RelayNook Events</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>agentping</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>MASPrivacyPolicyURL</key>
+	<string>https://barframe.com/apps/relaynook/privacy/</string>
+	<key>MASSupportURL</key>
+	<string>https://barframe.com/apps/relaynook/support/</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Michael Lip</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+{
+  "name": "NativeLedger",
+  "display_name": "NativeLedger",
+  "executable_target": "NativeLedger",
+  "slug": "nativeledger",
+  "version": "1.0.0",
+  "build": "6",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-write": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/nativeledger/privacy/",
+  "support_url": "https://barframe.com/apps/nativeledger/support/",
+  "usage_descriptions": {
+    "LSUIElement": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Headroom",
+  "executable_target": "Headroom",
+  "display_name": "Headroom Agent Memory",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true
+  },
+  "privacy_url": "https://barframe.com/apps/headroom/privacy/",
+  "support_url": "https://barframe.com/apps/headroom/support/"
+}

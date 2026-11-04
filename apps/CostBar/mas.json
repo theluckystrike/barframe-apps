@@ -1,0 +1,19 @@
+{
+  "name": "CostBar",
+  "display_name": "CostBar",
+  "bundle_id": "com.michaellip.costbar",
+  "version": "1.0.0",
+  "build": "3",
+  "category": "public.app-category.developer-tools",
+  "min_os": "14.0",
+  "executable_target": "CostBarApp",
+  "entitlements": {
+    "com.apple.security.network.client": true,
+    "com.apple.security.files.user-selected.read-write": true
+  },
+  "usage_descriptions": {},
+  "copyright": "\u00a9 2026 Michael Lip",
+  "privacy_url": "https://barframe.com/apps/costbar/privacy/",
+  "support_url": "https://barframe.com/apps/costbar/support/",
+  "slug": "costbar"
+}

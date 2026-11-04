@@ -1,0 +1,20 @@
+{
+  "name": "ShelfDock",
+  "display_name": "ShelfDock",
+  "bundle_id": "com.michaellip.shelfdock",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "executable_target": "ShelfDockApp",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-write": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "usage_descriptions": {},
+  "copyright": "\u00a9 2026 Michael Lip",
+  "privacy_url": "https://barframe.com/apps/shelfdock/privacy/",
+  "support_url": "https://barframe.com/apps/shelfdock/support/",
+  "slug": "shelfdock"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "StepQuay",
+  "subtitle": "Resume your next small task",
+  "keywords": "queue,action,timebox,interruption,effort,focus,planner,backlog,timer,checklist,duration,budget,work",
+  "description": "StepQuay keeps your next small action in the menu bar so you can return to it after an interruption.\n\nBuild an ordered queue with estimated effort for each action. Enter your available time to preview which consecutive actions fit. Overflow stays in your queue.\n\nWhen you pause, save a short resume note. Read it when you return and resume the remaining time. Sleep pauses active timing and requires you to resume after waking.\n\nAn expired timer never completes your work. Continue, revise the remaining effort, or defer the action. Finish when you are done and undo a completion if needed. Local history keeps estimated and active time with your interruption notes.\n\nOpen the panel with Command Option K or choose a different shortcut in Settings. Use Command Return to start, Command I to interrupt, Command R to resume, and Command F to finish.\n\nTry Sample explores a fictional launch checklist without changing your live queue. Settings include history retention and local history deletion.\n\nYour actions, notes, and history stay on your Mac. There are no accounts, analytics, cloud sync, or app network requests.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Keep your next small action in the menu bar. Add a resume note, preview what fits your time budget, and pick up right where an interruption left you.",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "",
+  "price_usd": 2.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "privacy_path": "/apps/stepquay/privacy/",
+  "support_path": "/apps/stepquay/support/",
+  "privacy_url": "https://barframe.com/apps/stepquay/privacy/",
+  "support_url": "https://barframe.com/apps/stepquay/support/",
+  "privacy_policy": "https://barframe.com/apps/stepquay/privacy/",
+  "support": "https://barframe.com/apps/stepquay/support/",
+  "marketing_url": "https://barframe.com/apps/stepquay/",
+  "whats_new": "\u2022 Build an ordered queue with estimated effort for each action.\n\u2022 When you pause, save a short resume note.\n\u2022 An expired timer never completes your work.",
+  "release_notes": "Resume interrupted actions with notes and remaining effort. Preview consecutive tasks against your time budget. Review active time and undo completion. Includes local Sample fixtures and Spanish interface.",
+  "screenshots_use_sample_data": true,
+  "bundle_id": "com.michaellip.stepquay"
+}

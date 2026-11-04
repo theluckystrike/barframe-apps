@@ -1,0 +1,22 @@
+{
+  "name": "RouteLoom Connection Report",
+  "subtitle": "Compare connection failures",
+  "keywords": "network,endpoint,uptime,monitor,diagnostic,ping,http,latency,service,incident,timeout,outage,status",
+  "description": "RouteLoom gives you a clearer connection incident report by checking a reference endpoint and a work endpoint together.\n\n\u2022 See whether failures affect your work service, your reference service or both\n\u2022 Record HTTP responses and transport errors with timestamps and request durations\n\u2022 Follow incidents from a healthy pair through observed failure and recovery\n\u2022 Keep sleep and shutdown gaps separate from observed failure spans\n\u2022 Preview a support report with hostnames while omitting paths and query strings\n\u2022 Compare recent sessions with earlier observations saved on this Mac\n\u2022 Open the current incident with a configurable global keyboard shortcut\n\u2022 Explore timeout, offline and TLS failure cases in Sample mode without network requests\n\nConfigure one named pair of HTTPS endpoints before starting. Nothing runs on first launch. Both endpoints receive HEAD requests during an active session. Standard certificate validation remains enabled. Redirects are not followed. Some servers reject HEAD requests, so use endpoints that support this method. An HTTP error confirms a response was received but does not mean the service is healthy.\n\nPaired observations offer possible leads for support. They do not establish an ISP, DNS or VPN cause and do not measure continuous uptime. RouteLoom does not run checks while your Mac sleeps. The menu bar always shows when a session is stopped.\n\nHistory stays local. RouteLoom has no account, telemetry, analytics or developer backend. Endpoint servers see requests and your source IP. Reports are copied only when you choose Copy report after viewing the preview. Clear local history and endpoint settings at any time. Launch at login is optional and off by default. English and Spanish interfaces and reports are included.\n\nAll features are included with your purchase. No subscription or in app purchases.\n\n\nOpen the panel with Control Option R.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Compare a reference endpoint with a work endpoint during the same incident. Tell a shared failure from a target only failure and copy a support ready report.",
+  "privacy_url": "https://barframe.com/apps/routeloom/privacy/",
+  "support_url": "https://barframe.com/apps/routeloom/support/",
+  "privacy_policy": "https://barframe.com/apps/routeloom/privacy/",
+  "support": "https://barframe.com/apps/routeloom/support/",
+  "privacy_path": "/apps/routeloom/privacy/",
+  "support_path": "/apps/routeloom/support/",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "First release.",
+  "marketing_url": "https://barframe.com/apps/routeloom/",
+  "bundle_id": "com.michaellip.routeloom",
+  "screenshots_use_sample_data": true
+}

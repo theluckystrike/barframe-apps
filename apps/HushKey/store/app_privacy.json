@@ -1,0 +1,5 @@
+{
+  "data_collected": [],
+  "tracking": false,
+  "notes": "HushKey changes only the system mute state of the microphone (CoreAudio device properties). It never opens an audio input stream, never captures audio, and makes no network requests. No data is collected, stored off-device, or shared."
+}

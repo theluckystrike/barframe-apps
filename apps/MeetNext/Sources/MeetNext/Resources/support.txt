@@ -1,0 +1,6 @@
+MeetNext Support
+
+Try Sample in the main window or Settings without calendar permission. Select calendars and reminders in Settings. If events are missing, check calendar access in System Settings, then return to MeetNext. All-day events are excluded. Never disables reminders.
+
+Contact: support@barframe.com
+Copyright © 2026 Michael Lip.

@@ -1,0 +1,11 @@
+StepQuay support
+
+Add an action with a title and positive effort estimate. Start next begins fresh work. Interrupt saves a required resume note and pauses active time. Previously interrupted actions wait for Resume after defer or completion undo. Show queue keeps the same current action controls available and previews consecutive actions against Available minutes. Overflow stays in order.
+
+Try Sample opens a fictional checklist without accounts or credentials. Settings and Reset Sample restore it. Command comma opens Settings. Command R resumes, Command I interrupts, and Command F finishes. Use the menu bar button if your chosen global shortcut is unavailable.
+
+Settings controls default duration, optional menu bar time, shortcut, language, retention and Sample mode. Live history expires on launch, when retention changes, and every minute while open, including Sample mode. Forever keeps records until cleared. Clear history clears the displayed live or Sample history independently of queued actions. Sleep pauses timing until you explicitly resume.
+
+Saved tasks stay on this Mac. If storage cannot be read, Settings offers Restore saved data or Reset saved queue. Reset keeps a local recovery backup.
+
+Copyright 2026 Michael Lip

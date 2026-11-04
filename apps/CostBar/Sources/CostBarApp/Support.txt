@@ -1,0 +1,38 @@
+CostBar Support
+
+Start without an account
+Open Settings with Command-comma. Choose Try with sample data. Select OpenRouter, Anthropic or OpenAI to inspect their separate reporting scopes, budgets and forecasts. Sample mode uses bundled reports and makes no network requests.
+
+Test a connection in Sample mode
+Choose Fill sample key, then Save & connect. The supplied demo key is saved and read in a separate Keychain item. Save again to test updating it. Refresh uses the bundled report. Remove key deletes the demo item and displayed sample report; fill and save again to reconnect. Sample keys cannot overwrite your real provider keys. Exit Sample mode restores your saved live settings and removes connected demo keys.
+
+Test alerts
+Set the OpenRouter Sample budget to $20 and threshold to 80%, then enable alerts to preview a reached threshold. Send Sample notification requests macOS permission and sends a clearly labeled local test notification. macOS Focus and notification settings control banner visibility. No provider account is needed. Launch at login is a real system setting; switch it off when finished testing.
+
+Connect a live provider
+Exit Sample mode and use Settings to save your provider key. OpenRouter key spend is separate from account credits, which require management access. Anthropic and OpenAI require organization Admin keys with cost-report access. CostBar sends only direct read-only HTTPS reports; it never makes inference requests. Do not send API keys to support.
+
+Track accounts, credits, and allowance
+Open Accounts & Credits from the app menu. Choose Add account. Select Manual records only to work without a reporting key. Choose a provider, enter an optional name, then select Add manual account. This account makes no provider requests until you add a reporting key. A connected account uses its own key and report. Original Settings keys are not copied.
+
+Record a credit grant
+Select an account. Enter the remaining USD balance, grant kind, expiry, and observation date. Select only workloads that the grant explicitly covers. Leave all boxes off if eligibility is unknown. Choose Add grant. Expired grants, future observations, and ineligible grants do not count. A monthly Max API promotion cannot fund ordinary API-funded Claude Code. Check the provider console before you rely on a manual entry.
+
+Record debt and subscription usage
+Save an amount owed in the debt section. It stays separate from credit and spend. In the allowance section, enter the subscription percentage used, reset time, and observation date. A subscription percentage is not USD. The observation becomes outdated when its reset time passes. A reset does not refill an API grant.
+
+Import a local token log
+Choose Import log file and select a JSON Lines log of 5 MB or less. CostBar reads the file locally and keeps token totals, counting methods, record counts, and import time. It keeps no raw log or file path and sends no log content. Review the displayed counting-method limits. Cache tokens are excluded from Claude message totals. Generic repeated or cumulative records can be over-counted. The result is an estimate, not a charge or official quota. Your token budget is your own target.
+
+Export and remove account data
+Choose Export redacted report and save the JSON file. It contains typed figures and salted account pseudonyms. It omits keys, names, email addresses, free-text notes, URLs, errors, raw logs, and file paths. Review the financial figures before you share it. CostBar does not upload the file.
+Disconnect removes the selected account key and stops its reporting requests. The last observation and manual records remain. Remove account deletes that account and its saved records. These controls are separate from the original Remove key control in Settings.
+
+Test Accounts & Credits without credentials
+Choose Load synthetic sample in the Accounts window. Select either labelled sample account. Change Workload to inspect the eligible amount. The sample makes no provider request and uses no key. Exit Sample mode discards its edits and restores your saved live account workspace.
+
+Troubleshooting
+Unlock your login Keychain if access is denied. A rejected key needs the provider's cost-report permission. Check network connectivity and try Refresh for connection failures. Reports may lag; UTC midnight and wake cause new reports. Forecasts need at least three days and ten percent of the month and disappear during stale, failed or incomplete reports. Budgets alert on reported monthly spend and never limit API usage. Confirm final charges with the provider billing dashboard.
+
+Privacy and removal
+Privacy Policy is available beside Support in About and the menu footer. Remove key in the original Settings screen deletes the selected original provider key and cached spend. Accounts & Credits uses its separate Disconnect and Remove account controls. Preferences and account records stay on this Mac unless you remove them. Developer: Michael Lip.

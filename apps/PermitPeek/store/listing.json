@@ -1,0 +1,21 @@
+{
+  "name": "PermitPeek",
+  "subtitle": "See app permission changes",
+  "keywords": "entitlement,code,signing,sandbox,signature,security,privacy,inspector,audit,baseline,bundle,binary",
+  "description": "PermitPeek compares an app\u2019s code signing entitlements against a baseline you acknowledge, so you can review changes after an update.\n\nChoose an application with the system picker. PermitPeek reads its static signing information without running it. Rescan compares entitlement keys and values, the app version, and the signing team against your baseline.\n\nReview added, removed, and changed declarations. Acknowledge changes to replace the baseline. Failed reads do not erase it. Copy a local report or remove a watched app without modifying its bundle.\n\nCoverage is limited to the main executable. Embedded helpers, network traffic, TCC grants, and complete effective access remain unknown. An absent network entitlement does not prove an app cannot connect. PermitPeek does not give safety or malware verdicts.\n\nOpen the inbox with Shift Command P. Settings offer another shortcut and a menu bar fallback if registration fails.\n\nTry Sample uses fictional CanvasKit and QuietNotes apps to show changed declarations and an unreadable signature. Sample watches are separate from your live watches.\n\nSigning metadata and baselines stay on your Mac. There are no accounts or app network requests. PermitPeek does not read app documents, monitor traffic, or upload software inventories.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Watch the code signing entitlements of installed apps. See added, removed, and changed declarations after an update, and keep a baseline you control.",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/permitpeek/support/",
+  "privacy_path": "/apps/permitpeek/privacy/",
+  "whats_new": "\u2022 Choose an application with the system picker.\n\u2022 Review added, removed, and changed declarations.\n\u2022 Coverage is limited to the main executable.",
+  "release_notes": "Added persistent permission baselines, immediate menu bar updates, separate Sample and live deletion, and protected recovery for unreadable saved data.",
+  "marketing_url": "https://barframe.com/apps/permitpeek/",
+  "privacy_url": "https://barframe.com/apps/permitpeek/privacy/",
+  "support_url": "https://barframe.com/apps/permitpeek/support/",
+  "privacy_policy": "https://barframe.com/apps/permitpeek/privacy/",
+  "support": "https://barframe.com/apps/permitpeek/support/"
+}

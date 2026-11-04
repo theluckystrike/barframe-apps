@@ -1,0 +1,19 @@
+{
+  "name": "CheckHarbor",
+  "subtitle": "Track builds until recovery",
+  "keywords": "workflow,pipeline,monitor,status,failure,deployment,repository,branch,integration,alert,inbox,run",
+  "description": "Keep failed builds visible until their matching recovery arrives. CheckHarbor is an independent recovery inbox for GitHub Actions on explicitly selected repositories.\n\n\u2022 Group repeated failures into durable episodes\n\u2022 Match recovery by repository, branch, and workflow\n\u2022 Acknowledge and snooze while keeping failures unresolved\n\u2022 Review first failure, latest failure, and recovery links\n\u2022 See stale data, authentication errors, and rate limit backoff\n\u2022 Open unresolved episodes with a configurable global shortcut\n\u2022 Explore fictional workflows in Sample mode without credentials\n\nAdd public repositories by owner and name. Private repositories require an optional fine grained token with Actions read access stored in Keychain. Choose a polling interval and recovered history retention in Settings. Unresolved episodes stay until recovery or local deletion. Delete local history and repositories in Settings and remove the Keychain token separately. The default shortcut is Command Shift H and can be changed or disabled.\n\nRecent API history is bounded and polling gaps can miss runs. Monitoring works while the app is open. No source code or logs are fetched. Repository metadata and episodes remain local. No analytics or developer backend. All features are included with one purchase.\n\nPrivacy policy and support are available in the app and on its linked website.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Track failing GitHub Actions runs until they recover. Keep a local inbox of unresolved failures, acknowledge them, and see matching recovery on the right branch.",
+  "primary_category": "public.app-category.developer-tools",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/checkharbor/support/",
+  "privacy_path": "/apps/checkharbor/privacy/",
+  "whats_new": "\u2022 Track workflow failures until a newer successful run.\n\u2022 Review failure and recovery links.\n\u2022 Try fictional repositories in Sample mode.",
+  "release_notes": "Introduces durable failure episodes matching recoveries acknowledgement snooze and a local recovery digest.",
+  "screenshots_use_sample_data": true,
+  "privacy_policy": "https://barframe.com/apps/checkharbor/privacy/",
+  "support": "https://barframe.com/apps/checkharbor/support/"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ReminderVault",
+  "subtitle": "Markdown tasks and reminders",
+  "keywords": "checklist,notes,list,duedates,overdue,preview,integration,menubar,completion,folder",
+  "description": "ReminderVault syncs Markdown checkboxes with your selected Reminders lists from the menu bar.\n\nChoose a vault folder. Then select the writable reminder lists you want to keep in sync with its Markdown tasks. Preview first, then apply. You can try this with the bundled Sample vault before granting access to personal reminders.\n\nTasks sync in both directions. Vault tasks create or update reminders, and imported reminders go into ReminderVault Inbox.md. Task comments link the two sides. The mapping covers task titles, completion and due dates while unrelated Markdown lines stay intact. Recurrence, attachments, subtasks and reminder alarms aren't included.\n\nThe menu keeps overdue and undated tasks visible alongside today's pending tasks, so you can check off work without opening the vault. Check a task off there to write its completion back. After you apply a preview, you can sync automatically every minute, every 5 or 15 minutes, or every hour. A preview or sync failure pauses automatic syncing until you review and apply again.\n\nIf both sides change, the newest edit wins. Markdown file modification time represents the vault edit, and equal timestamps favor the vault. The conflict log records each decision. Deletions don't carry across automatically, so a missing counterpart needs manual review.\n\nSample mode works with local example files and never connects to your reminder lists. Launch at login is optional. The app has no accounts or analytics and runs no external sync server. Your vault or Reminders provider may still sync files independently of this app, using its own service and account settings.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Review your first sync, then keep Markdown tasks and selected reminder lists in step from the menu bar.",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "public.app-category.utilities",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/remindervault/support/",
+  "privacy_path": "/apps/remindervault/privacy/",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/remindervault/privacy/",
+  "support": "https://barframe.com/apps/remindervault/support/",
+  "marketing_url": "https://barframe.com/apps/remindervault/",
+  "bundle_id": "com.michaellip.remindervault"
+}

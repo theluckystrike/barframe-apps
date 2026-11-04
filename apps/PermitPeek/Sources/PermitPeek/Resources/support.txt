@@ -1,0 +1,13 @@
+PermitPeek support
+
+Choose Try Sample to explore fictional CanvasKit and QuietNotes without credentials. Review changed declarations, acknowledge them, copy a report, remove an example or rescan to reset the fixtures. Open Settings with Command comma to set the inbox shortcut and reset Sample. Sample watches are separate from saved live watches.
+
+Choose an app, review its declarations and acknowledge to save a baseline. Rescan after updates. An unreadable signature stays unknown and preserves the existing baseline. Inspection covers the main executable only. Helpers, actual traffic, TCC permissions and complete effective access remain unknown.
+
+If saved data cannot be read, writes are paused. Use Retry saved data in Settings after restoring the file. Use Delete all live watches and history only to explicitly discard saved live data and start again. That action also deletes live data while Sample is enabled. Delete Sample watches only leaves saved live data intact.
+
+If a shortcut is unavailable, choose another in Settings or click the menu bar icon.
+
+For support contact support@barframe.com and include the app version, macOS version and steps to reproduce. Never send credentials or private app reports.
+
+https://barframe.com/apps/permitpeek/support/

@@ -1,0 +1,23 @@
+{
+  "name": "Headroom Agent Memory",
+  "subtitle": "Memory pressure & swap budget",
+  "keywords": "coding,parallel,developer,ram,usage,monitor,tracker,resource,capacity,resident,detect,planner",
+  "description": "Headroom estimates how many more coding agents fit within a memory budget you choose. It deducts a 4 GiB system reserve and shows zero additional capacity when swap is in use or memory pressure is above normal.\n\nYou can check available memory and swap use alongside detected same-user agent trees, with resident memory shown where it can be read and partial readings labeled when access is unavailable, so you can see where the reading falls short. Resident memory excludes compressed pages. It doesn't measure physical footprint. Detection recognizes supported native executable names and can miss script-hosted or unknown agents.\n\nTreat the capacity figure as an estimate. Agent workloads and other apps can grow after a reading, and Sample mode lets you try different memory conditions without running any agents.\n\nAll readings stay on your device, and no account, analytics or network access is required.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Plan parallel coding with a visible agent budget, system memory pressure, and clearly labeled estimates.",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "public.app-category.developer-tools",
+  "price_usd": 0,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/headroom/support/",
+  "privacy_path": "/headroom/privacy/",
+  "whats_new": "First release.",
+  "screenshots_use_sample_data": true,
+  "privacy_policy": "https://barframe.com/apps/headroom/privacy/",
+  "support": "https://barframe.com/apps/headroom/support/",
+  "marketing_url": "https://barframe.com/apps/headroom/",
+  "review_notes": "Headroom Agent Memory is a reduced-feature sandbox port of an existing developer utility. Launch it to open the dashboard; the HR menu-bar item reopens the window. No sign-in or coding agent is required. Toggle Sample mode, then select Balanced, Under pressure, or Room to grow. All three screenshots use sample data and show SAMPLE DATA labels. Change the per-agent budget with the slider. A 4 GiB reserve is deducted. Any current swap use or non-normal pressure yields zero additional capacity. Values are estimates, never a guarantee against future swapping.\n\nOnly com.apple.security.app-sandbox is enabled. No network, file, accessibility, automation, private API, or temporary exception entitlement is requested. KERN_PROC_ALL enumerates processes, filtered to the current user. Native agent names and exact argv[0] for version-named executables identify supported agents. The app sums readable resident memory across their descendant trees. Shared pages may be counted in more than one process; compressed pages are excluded. The physical-footprint API is denied by the sandbox for other processes and is not used in the shipping app. Detection can miss script-hosted and unknown agents. Permission or runtime failures show unavailable or partial data.\n\nThe Privacy button shows the local privacy summary and policy link. Privacy and support pages are live at barframe.com/apps/headroom/privacy/ and barframe.com/apps/headroom/support/. Local gate results are not an App Review approval. Tested on macOS 26.6.2 arm64; macOS 14 and physical Intel runtime behavior are unknown. The binary targets macOS 14 and includes both architectures.",
+  "privacyPolicyUrl": "https://theluckystrike.github.io/headroom/privacy/",
+  "supportUrl": "https://theluckystrike.github.io/headroom/support/",
+  "marketingUrl": null
+}

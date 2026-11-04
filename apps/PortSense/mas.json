@@ -1,0 +1,16 @@
+{
+  "name": "PortSense",
+  "display_name": "PortSense",
+  "bundle_id": "com.unfinalized.portsense",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "executable_target": "PortSenseApp",
+  "entitlements": {},
+  "usage_descriptions": {},
+  "copyright": "\u00a9 2026 Michael Lip",
+  "privacy_url": "https://barframe.com/apps/portsense/privacy/",
+  "support_url": "https://barframe.com/apps/portsense/support/",
+  "slug": "portsense"
+}

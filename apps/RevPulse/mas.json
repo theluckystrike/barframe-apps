@@ -1,0 +1,16 @@
+{
+  "name": "RevPulse",
+  "display_name": "RevPulse Revenue at a Glance",
+  "executable_target": "RevPulse",
+  "slug": "revpulse",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.finance",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.network.client": true
+  },
+  "privacy_url": "https://barframe.com/apps/revpulse/privacy/",
+  "support_url": "https://barframe.com/apps/revpulse/support/"
+}

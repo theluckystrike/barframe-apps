@@ -1,0 +1,12 @@
+RevPulse Support
+
+Open the revenue title in your menu bar, then choose Settings… (or Command-comma). Try Sample mode works without an account or key. All metrics, goal controls, refresh choices, notification controls, privacy and support are reachable there. Sample mode does not send live requests. Its Send Sample alert buttons test notification delivery without credentials. If a key is already saved, Return to live data reconnects it; Remove key deletes it from Keychain.
+
+For live data, supply a Stripe restricted key beginning with rk_. Enable read access for Charges, Customers, Subscriptions, Refunds, Balance transactions and account details (the /v1/account request). Stripe's permission labels may differ. A restricted-key prefix does not prove read-only permissions; configure those in Stripe. Permission failures appear in the panel and no totals are shown. No private credentials are needed to review Sample mode.
+
+Automatic refresh starts on launch with a saved key and repeats every 1, 5, 15 or 30 minutes. Refresh updates immediately. Counts are month-to-date. Money uses UTC-dated charge/payment and refund/reversal balance movements, net of fees, in the account's default settlement currency. Refunds are settlement refund amounts on the refund's date, including refunds of older sales. Payouts, transfers and unrelated adjustments are excluded. Mixed settlement currencies show Net unavailable; currencies are never added together. Net unavailable also appears if balance movements cannot be fetched. This is a payment summary, not a complete accounting ledger.
+
+Set the monthly goal in the displayed currency's minor units. Separate first-sale-of-the-UTC-day and failed-payment notifications start disabled. Alerts use payments fetched while enabled, and macOS notification permission may be required. Launch at login uses macOS ServiceManagement only after choosing the toggle; registration failures appear in Settings. Login approval may require System Settings.
+
+Email support@barframe.com. RevPulse is independent and is not endorsed by Stripe.
+© 2026 Michael Lip

@@ -1,0 +1,14 @@
+{
+  "data_collected": [],
+  "tracking": false,
+  "local_storage": [
+    "read-only folder bookmarks",
+    "folder display names",
+    "token counts and timestamps",
+    "opaque record identifiers",
+    "limits",
+    "provider selection",
+    "file counts",
+    "refresh times"
+  ]
+}

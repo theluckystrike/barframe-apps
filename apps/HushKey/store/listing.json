@@ -1,0 +1,17 @@
+{
+  "name": "HushKey Mic Mute Hotkey",
+  "subtitle": "Hold to talk, release to mute",
+  "keywords": "microphone,toggle,unmute,shortcut,button,switch,privacy,global,keyboard,ptt,audio",
+  "description": "HushKey mutes your supported default microphone from the menu bar or a keyboard shortcut.\n\nPress Shift-Option-M to mute, then press it again to unmute. You can change the shortcut in Settings. Turn on push-to-talk to hold the shortcut while speaking and mute when you release it. The menu bar shows the mute state, and an optional floating badge stays visible while you work.\n\nHushKey uses a device's hardware mute when it can. For devices with input-volume control only, it sets the volume to zero and remembers a level to restore. If no level is saved, it restores half volume. Unsupported microphones show an explanation. Check which input your calling app uses, since HushKey controls the system default input.\n\nWhen the default microphone changes, you can always mute the new device, keep it muted only if HushKey muted the previous one, or leave it alone. You can also launch at login. Reset local preferences and device memory from Settings when you want to start over.\n\nTry Sample mode without touching real hardware. It uses simulated microphones for the controls. HushKey never records audio or requests microphone access, and your preferences and device memory stay on your Mac. No account needed. Privacy Policy and Support open in your browser when you click them.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Mute a supported default microphone with a global shortcut. Hold to talk, release to mute. No audio is recorded.",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "public.app-category.productivity",
+  "price_usd": 2.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/hushkey/privacy/",
+  "support": "https://barframe.com/apps/hushkey/support/",
+  "marketing_url": "https://barframe.com/apps/hushkey/",
+  "bundle_id": "com.michaellip.hushkey"
+}

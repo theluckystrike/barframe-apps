@@ -1,0 +1,19 @@
+{
+  "name": "RevPulse Revenue at a Glance",
+  "subtitle": "Net payments in your menu bar",
+  "keywords": "payment,tracker,notifications,sales,dashboard,widget,income,metrics,refunds,subscriptions",
+  "promotional_text": "Check your Stripe net payments and monthly goal from the menu bar. Try Sample mode before connecting a restricted API key.",
+  "description": "RevPulse shows your Stripe net payments in the macOS menu bar.\n\nOpen the panel to compare today with yesterday, see the weekly trend and check progress toward a monthly goal. You can also see month-to-date net payments, new customers and subscriptions, failed payments and refunds.\n\nTotals use payment and refund balance movements dated in UTC, with fees included. Payouts, transfers and unrelated adjustments are excluded. The app uses your account's default settlement currency. If it finds multiple settlement currencies, it shows Net unavailable instead of adding them together.\n\nSample needs no credentials. You can explore the interface and change the goal before connecting an account, then save a Stripe restricted API key in the macOS Keychain when you're ready for live data. It needs read-only access to charges, customers, subscriptions, refunds, balance transactions and account details.\n\nChoose automatic refresh every 1, 5, 15 or 30 minutes. You can turn on separate notifications for the first sale of the UTC day and failed payments. Notifications and launch at login start off.\n\nRequests go directly to api.stripe.com, and revenue totals stay in memory. The app saves your settings and notification identifiers locally while keeping the API key in Keychain, so removing a key doesn't remove the underlying account data from Stripe. Read Privacy Policy and Support offline.\n\nRevPulse is an independent app made by Barframe, and it has no endorsement from Stripe.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "primary_category": "public.app-category.finance",
+  "secondary_category": "public.app-category.business",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/revpulse/support/",
+  "privacy_path": "/revpulse/privacy/",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/revpulse/privacy/",
+  "support": "https://barframe.com/apps/revpulse/support/",
+  "marketing_url": "https://barframe.com/apps/revpulse/",
+  "bundle_id": "com.michaellip.revpulse"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Starglass Night Sky Planner",
+  "subtitle": "Cloud and moon night planner",
+  "description": "Starglass shows a stargazing forecast in your menu bar, with a score for tonight and cloud cover through the dark hours.\n\nChoose a city to see a score from 0 to 100, combining cloud cover, visibility, humidity and wind with local estimates of moonlight and darkness. Compare the next seven nights and see which has the highest score. The score is a planning estimate, not a promise of clear skies.\n\nThe hourly timeline follows cloud cover through astronomical darkness, while tonight's summary gives you the estimated hours of darkness and shows how much of the moon is lit. Turn on a notification for a clear night, or choose to keep tonight's score in the menu bar.\n\nCity search sends your search text to Open-Meteo. Forecast requests send the city's coordinates, so you don't need to grant location access. Your city and latest forecast are saved locally. Cached forecasts are marked when offline or stale, and you can refresh manually.\n\nTry Sample to explore a bundled synthetic forecast without a network connection or a saved city. Notifications start off. Forecast data comes from Open-Meteo, and Starglass has no account, analytics or tracking.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "keywords": "stargazing,astronomy,telescope,moon,phase,dark,conditions,clear,weather,visibility",
+  "promotional_text": "Check tonight's stargazing score and hourly cloud cover, then compare the next seven nights. Try a Sample forecast without choosing a city.",
+  "privacy_policy": "https://barframe.com/apps/starglass/privacy/",
+  "support": "https://barframe.com/apps/starglass/support/",
+  "primary_category": "public.app-category.weather",
+  "secondary_category": "",
+  "price_usd": 0,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "privacy_path": "/starglass/privacy/",
+  "support_path": "/starglass/support/",
+  "whats_new": "First release.",
+  "marketing_url": "https://barframe.com/apps/starglass/",
+  "bundle_id": "com.michaellip.starglass"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ShelfDock",
+  "subtitle": "Drag & drop file staging",
+  "description": "ShelfDock holds files, folders, text and images in a menu bar shelf while you move between apps.\n\nClick the tray icon and drop items into the open window. You can keep up to 40 items, sort them into named groups and filter by name. New drops go into your selected group. All shows the whole shelf.\n\nDrag a row into a compatible app when you need it. The row menu also lets you copy, share or preview an item with Quick Look. File entries point to your originals through saved bookmarks. Text and images are stored on the shelf.\n\nYou can paste text from the clipboard or turn on Clear items after drag out. The item leaves the shelf only after a destination accepts the drop, and Undo cleared drag brings it back if you change your mind. Missing files show a hint so you can restore access.\n\nTry Sample to use bundled example files, text and an image in a separate temporary shelf. Your real shelf stays saved while you try it.\n\nShelfDock stores shelf data locally. Removing an item or clearing the shelf deletes its saved reference or payload, not the original file. The app has no account, analytics or background uploads. Sharing an item through a system service can send it to that service. Launch at login is optional.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "keywords": "clipboard,paste,copy,tray,organizer,snippet,parking,holder,temporary,stash,transfer",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "public.app-category.productivity",
+  "copyright": "2026 Michael Lip",
+  "support_url": "https://barframe.com/apps/shelfdock/support/",
+  "promotional_text": "Keep files and snippets on a local menu bar shelf. Drop them into other apps when you need them, or try the separate Sample shelf first.",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/shelfdock/privacy/",
+  "support": "https://barframe.com/apps/shelfdock/support/",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "support_path": "/shelfdock/support/",
+  "privacy_path": "/shelfdock/privacy/",
+  "marketing_url": "https://barframe.com/apps/shelfdock/",
+  "bundle_id": "com.michaellip.shelfdock"
+}

@@ -1,0 +1,15 @@
+Effective date: October 12, 2026.
+
+QuotaPace reads JSONL session files only inside folders you select with the system folder picker. It inspects timestamps, record identifiers and token usage fields for Claude Code and Codex. Files are parsed in memory. Conversation text is not retained, displayed, or transmitted. QuotaPace never modifies session logs.
+
+Folder permissions are stored as read-only security-scoped bookmarks. Your token limits, chosen provider, last refresh time, file count, opaque hashed record identifiers and token counts from the previous seven days are stored locally in the app's sandbox container. Full source paths and original message identifiers are not stored in cached usage records. Folder bookmarks retain permission to locate the selected folder; its display name is stored with the bookmark. File modification timestamps are inspected to detect edited logs and are not persisted. Legacy caches containing source paths are discarded on upgrade. The source logs remain in the folders you chose. Disconnecting a folder in Settings removes its bookmark and cached token counts; it leaves your source files untouched. Your configured limits remain until you change them or remove the app's container data.
+
+QuotaPace has no network entitlement, analytics, advertising, tracking, or developer data collection. It sends nothing to the developer or to any other service. It does not access provider accounts, credentials, payment information, or cloud APIs. No account is required.
+
+Launch at Login is optional and off by default. Enabling it registers the app with the system's login item service. You can disable it in QuotaPace Settings or in system Login Items.
+
+The UI offers a clearly labeled Sample mode using bundled synthetic records shifted to the current time. Sample budgets and records stay in memory and do not replace saved live budgets or grants. App Store screenshots always use neutral synthetic values labeled "Sample data". Smoke mode creates and removes temporary fixture copies inside the sandbox and writes a local diagnostic report containing counts and check results, without conversation content.
+
+To remove QuotaPace's access and cached usage, use Disconnect in Settings for each connected format. To stop login registration, turn Launch at Login off. Your original logs stay in their selected folders.
+
+Publisher: Michael Lip. The bundled Support page explains local troubleshooting and data removal. A verified support and privacy contact channel has not been configured and must be completed before App Store submission.
