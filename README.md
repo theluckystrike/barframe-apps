@@ -49,7 +49,6 @@ These apps were made for the Mac App Store. They are not on sale there now. The 
 
 ## Related
 
-- Frit, a glaze recipe book for potters: https://github.com/theluckystrike/frit
 - Website: https://barframe.com/open-source/
 
 ## Contact
