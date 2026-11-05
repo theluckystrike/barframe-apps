@@ -26,7 +26,7 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 | [MicAnchor](apps/MicAnchor/) | Default mic priority keeper | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/micanchor-v1.0.0/MicAnchor-1.0.0.dmg) | <a href="apps/MicAnchor/"><img src="apps/MicAnchor/store/screenshots/01-feature.png" width="200" alt="MicAnchor screenshot"></a> |
 | [NameWeave](apps/NameWeave/) | Check filename portability | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/nameweave-v1.0.0/NameWeave-1.0.0.dmg) | <a href="apps/NameWeave/"><img src="apps/NameWeave/store/screenshots/01-source-risks.png" width="200" alt="NameWeave screenshot"></a> |
 | [NativeLedger](apps/NativeLedger/) | Automatic app update ledger | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/nativeledger-v1.0.0/NativeLedger-1.0.0.dmg) | <a href="apps/NativeLedger/"><img src="apps/NativeLedger/store/screenshots/01-recent-changes.png" width="200" alt="NativeLedger screenshot"></a> |
-| [PageParcel](apps/PageParcel/) | Plan duplex document packets | Build from source | <a href="apps/PageParcel/"><img src="apps/PageParcel/store/screenshots/01-packet.png" width="200" alt="PageParcel screenshot"></a> |
+| [PageParcel](apps/PageParcel/) | Plan duplex document packets | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/pageparcel-v1.0.0/PageParcel-1.0.0.dmg) | <a href="apps/PageParcel/"><img src="apps/PageParcel/store/screenshots/01-packet.png" width="200" alt="PageParcel screenshot"></a> |
 | [PermitPeek](apps/PermitPeek/) | See app permission changes | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/permitpeek-v1.0.0/PermitPeek-1.0.0.dmg) | <a href="apps/PermitPeek/"><img src="apps/PermitPeek/store/screenshots/01-review.png" width="200" alt="PermitPeek screenshot"></a> |
 | [PortSense](apps/PortSense/) | Charger wattage & USB devices | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/portsense-v1.0.0/PortSense-1.0.0.dmg) | <a href="apps/PortSense/"><img src="apps/PortSense/store/screenshots/readme-screenshot-01.png" width="200" alt="PortSense screenshot"></a> |
 | [QuotaPace](apps/QuotaPace/) | Token pace & usage limits | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/quotapace-v1.0.0/QuotaPace-1.0.0.dmg) | <a href="apps/QuotaPace/"><img src="apps/QuotaPace/store/screenshots/readme-screenshot-01.png" width="200" alt="QuotaPace screenshot"></a> |
@@ -56,7 +56,7 @@ Some scripts in `apps/*/scripts` are release helpers for the author's own signin
 
 ## Status
 
-All 29 apps are free under the MIT License. 28 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
+All 29 apps are free under the MIT License. 29 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
 
 These apps were made for the Mac App Store. Apple rejected them under guideline 4.3 after too many submissions from a new account, so they are published here instead. The full story is at https://barframe.com/open-source/.
 
