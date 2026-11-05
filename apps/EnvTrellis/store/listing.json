@@ -1,0 +1,20 @@
+{
+  "name": "EnvTrellis",
+  "subtitle": "Check environment readiness",
+  "keywords": "dotenv,environment,required,forbidden,keys,release,readiness,config,matrix",
+  "description": "Catch missing environment keys before a release. Save required, optional and forbidden key rules for each environment and review a report that never exposes values.\n\nChoose a template and several environment files. EnvTrellis reads only the files you select and stores read access bookmarks, key presence and your rule matrix locally. Required keys must be present and nonempty. Optional keys can be absent. Forbidden keys must be absent.\n\nA single rescan reviews every input. New template keys need a rule decision. Duplicate keys include line numbers, and unsupported multiline or expansion syntax blocks readiness. Missing files and expired access produce Unknown. Observable file changes mark the previous result Stale until you rescan.\n\nPin a project in the menu bar, adjust rules in a native matrix and copy a release readiness report with key names, presence, outcomes and line numbers. Mask project and environment labels when sharing. Values are never displayed, saved or copied by the app.\n\nTry the clearly labeled Sample project immediately without granting file access. Settings include a remappable opening shortcut, appearance, English and Spanish interface text and optional launch at login, off by default.\n\nYour files and settings stay on your Mac. No accounts, analytics, cloud sync or automatic network calls. Inputs are never edited. Clearing local data removes saved projects, rules and access bookmarks while keeping your source files.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Catch missing and forbidden environment keys with a saved requirement matrix and reports that keep every value hidden.",
+  "privacy_path": "/apps/envtrellis/privacy/",
+  "support_path": "/apps/envtrellis/support/",
+  "primary_category": "public.app-category.developer-tools",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "[New] Saved requirement matrices across environments\n[New] Reports with key names and presence only\n[New] Scoped input access and stale result detection\n[New] Sample project and English and Spanish interface",
+  "privacy_url": "https://barframe.com/apps/envtrellis/privacy/",
+  "support_url": "https://barframe.com/apps/envtrellis/support/",
+  "bundle_id": "com.michaellip.envtrellis",
+  "privacy_policy": "https://barframe.com/apps/envtrellis/privacy/",
+  "support": "https://barframe.com/apps/envtrellis/support/"
+}

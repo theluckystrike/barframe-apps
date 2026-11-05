@@ -1,0 +1,5 @@
+LinkSprig ayuda
+
+Abre Sample desde la ventana inicial o Ajustes para probar las funciones sin una cuenta. Elige una carpeta para conceder acceso de lectura. Introduce una ruta existente y un destino dentro de esa carpeta. Previsualizar cambio simula las nuevas carpetas sin escribir archivos. Revisa cambios y cobertura y copia el plan. Los fragmentos y la sintaxis no compatible quedan sin verificar. Elegir de nuevo restaura el acceso. Ajustes ofrece un grabador de atajos desactivado por defecto, idioma, apariencia, exclusiones y borrado de datos locales.
+
+Michael Lip

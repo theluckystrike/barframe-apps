@@ -1,0 +1,1 @@
+All plans stay locally in the app sandbox. No analytics or automatic network connections.

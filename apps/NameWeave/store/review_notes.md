@@ -1,0 +1,8 @@
+Open NameWeave, click the menu bar item and select See Sample. Synthetic Sample names include reserved device stems, repair created collisions and case variants. Select Resolve candidates and edit a replacement in the normal resizable detail window. Copy plan labels all sample content. Source files are never modified. Open Settings with Command comma. Sample is also reachable there and can be reset. Switch to Live and Choose folder to grant read access with NSOpenPanel. Rescan on demand. Forget root removes saved access and plans.
+
+The com.apple.security.files.user-selected.read-only entitlement is needed by Live mode and Choose folder to read filenames in the directory explicitly selected through NSOpenPanel and to rescan that directory without modifying source files. The com.apple.security.files.bookmarks.app-scope entitlement is needed to save and restore the selected directory access across launches using a security scoped bookmark so Live mode can rescan the saved folder without asking for a new selection each time. Security scoped access is balanced on every scan. No network entitlement is used. Resolved stale bookmarks are renewed. Unavailable saved access preserves the last result as stale and requests Choose again. Missing folders, read failures, symlinks, exclusions and limits block Ready.
+
+Settings offers destination policy, advanced target budget, exclusions, appearance, English and Spanish and a remappable global panel shortcut disabled until chosen. Public Carbon hotkey registration reports conflicts. No Accessibility or Input Monitoring permission is requested.
+
+Privacy Policy barframe.com/apps/nameweave/privacy/
+Support barframe.com/apps/nameweave/support/

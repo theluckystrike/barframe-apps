@@ -1,0 +1,3 @@
+# HashDock privacy
+
+HashDock does not collect data. There are no analytics, accounts, advertisements, telemetry or automatic network requests. Selected folders are read locally through sandbox permissions. File contents are streamed for checksums and are not stored by the app. Saved manifests contain relative file names, byte counts and digests. Folder bookmarks, recipient aliases and results remain in the local app container. Forget job removes the saved live job and permissions without changing your input files. Sample fixtures are local invented data. Copy receipt writes the requested summary to the system clipboard. Other apps may read clipboard contents. Privacy and Support links open your browser, which makes a normal website request.

@@ -1,0 +1,17 @@
+{
+  "name": "EnvTrellis",
+  "display_name": "EnvTrellis",
+  "executable_target": "EnvTrellis",
+  "slug": "envtrellis",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.developer-tools",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-only": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/envtrellis/privacy/",
+  "support_url": "https://barframe.com/apps/envtrellis/support/"
+}

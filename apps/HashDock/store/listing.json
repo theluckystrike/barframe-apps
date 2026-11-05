@@ -1,0 +1,20 @@
+{
+  "name": "HashDock",
+  "subtitle": "Verify every delivery copy",
+  "keywords": "checksum,delivery,verify,manifest,recipient,integrity,files,sha256",
+  "description": "See which delivery copies have been checked against the same source. HashDock keeps named delivery jobs with a separate result for every recipient.\n\nFreeze a source manifest, then verify selected destination folders with streaming SHA256 checks. Review missing, changed, extra and unreadable files. Finder metadata is excluded with visible warnings. Empty sources cannot be frozen. Offline copies remain separate from verified copies. Refreshing the source resets every previous result.\n\nCopy a local delivery receipt with revision, coverage and verification times. Sample mode demonstrates a matching studio copy, a client copy with a missing file and an offline archive.\n\nYour files and settings stay on your Mac. No accounts, analytics or automatic network calls. File checks detect observed changes during reading and do not create an atomic filesystem snapshot.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Track every recipient against one frozen source manifest and keep incomplete deliveries visible.",
+  "privacy_url": "https://barframe.com/apps/hashdock/privacy/",
+  "support_url": "https://barframe.com/apps/hashdock/support/",
+  "privacy_policy": "https://barframe.com/apps/hashdock/privacy/",
+  "support": "https://barframe.com/apps/hashdock/support/",
+  "privacy_path": "/apps/hashdock/privacy/",
+  "support_path": "/apps/hashdock/support/",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "[New] Frozen manifests and recipient verification\n[New] Local delivery receipts and Sample mode",
+  "bundle_id": "com.michaellip.hashdock"
+}

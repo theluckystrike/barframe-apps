@@ -1,0 +1,18 @@
+{
+  "name": "NameWeave",
+  "subtitle": "Check filename portability",
+  "keywords": "filename,portability,folder,handoff,collision,unicode,windows,plan,transfer",
+  "description": "Catch filename conflicts before handing a folder to another platform. NameWeave audits your selected folder and helps you build a replacement plan without changing source files.\n\nReview reserved device names, restricted characters and trailing dots or spaces under a labeled Windows compatibility profile. See case and Unicode normalization risks in the same folder. These conservative checks are compatibility targets rather than guarantees about every filesystem or application.\n\nPreview replacement names across the whole tree. Edit suggestions and see conflicts created by repairs themselves, including renamed parent folders. Resolve candidates and copy a before and after plan with reasons and remaining conflicts. A plan is Ready only after complete coverage and no unresolved destination issues.\n\nSet a destination prefix and an optional legacy path budget. Inaccessible folders, symbolic links, exclusions and scan limits remain visible as incomplete coverage. Hidden items are skipped and packages are reviewed as single items. Skipped dependency contents remain visible as incomplete coverage. Choose a folder with the standard file picker, save access locally and rescan when needed.\n\nExplore labeled Sample mode immediately. All processing stays on your Mac. There are no accounts, analytics, ads or automatic network calls. All features are included in the upfront price.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Review a whole handoff tree and test replacement names together before sharing your folder.",
+  "privacy_policy": "https://barframe.com/apps/nameweave/privacy/",
+  "support": "https://barframe.com/apps/nameweave/support/",
+  "privacy_path": "/apps/nameweave/privacy/",
+  "support_path": "/apps/nameweave/support/",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "[New] Folder portability checks and complete virtual tree planning.\n[New] Editable replacements and copied handoff reports.\n[New] Local Sample mode and English and Spanish interfaces.",
+  "bundle_id": "com.michaellip.nameweave"
+}

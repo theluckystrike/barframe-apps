@@ -1,0 +1,5 @@
+LinkSprig support
+
+Open Sample from the first window or Settings to try every planning feature without an account. Choose a documentation folder to grant read access. Enter an existing path and a destination within that folder. Preview move simulates new destination folders without writing files. Review changes and coverage, then Copy change plan. Fragments and unsupported syntax remain Unchecked. Choose again restores folder access. Settings provides a disabled by default shortcut recorder, language, appearance, exclusions and local data deletion.
+
+Michael Lip

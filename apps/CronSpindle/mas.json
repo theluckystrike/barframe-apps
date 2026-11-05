@@ -1,0 +1,15 @@
+{
+  "name": "CronSpindle",
+  "display_name": "CronSpindle",
+  "executable_target": "CronSpindle",
+  "slug": "cronspindle",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.developer-tools",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true
+  },
+  "privacy_url": "https://barframe.com/apps/cronspindle/privacy/",
+  "support_url": "https://barframe.com/apps/cronspindle/support/"
+}

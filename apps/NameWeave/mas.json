@@ -1,0 +1,17 @@
+{
+  "name": "NameWeave",
+  "display_name": "NameWeave",
+  "executable_target": "NameWeave",
+  "slug": "nameweave",
+  "version": "1.0.0",
+  "build": "1",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true,
+    "com.apple.security.files.user-selected.read-only": true,
+    "com.apple.security.files.bookmarks.app-scope": true
+  },
+  "privacy_url": "https://barframe.com/apps/nameweave/privacy/",
+  "support_url": "https://barframe.com/apps/nameweave/support/"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "MicAnchor",
+  "subtitle": "Default mic priority keeper",
+  "keywords": "microphone,selector,manager,headset,switch,bluetooth,guard,input,switcher,control,device,audio",
+  "description": "MicAnchor switches your system input back to a preferred microphone when a Bluetooth microphone takes over. It chooses the first available non-Bluetooth input in your saved priority order and leaves an available non-Bluetooth default input alone.\n\nSave your preferred microphones in Settings and put them in order. Preferences survive disconnects and restarts. If none is available, MicAnchor tries the built-in microphone before other wired inputs. When choosing an input automatically, MicAnchor skips recognized virtual and loopback devices, and it skips the built-in microphone when the lid is closed or the device reports that its input is unavailable to the system.\n\nYou can pause the guard or allow a headset microphone for one hour. After three input-write attempts in 30 seconds, another required write pauses the guard for five minutes. Failed switches show a Retry option. Open the history to see recent switches and their reasons, or clear it.\n\nMicAnchor never records audio. It changes the system default input, which apps with their own microphone selection may ignore. You need a separate available microphone, and audio quality depends on your headphones and calling app.\n\nPreferences and a bounded switch history stay on your Mac. No account is needed. Sample mode lets you try switching and preferences without changing system audio, and Launch at Login stays off unless you enable it.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Keep a preferred system microphone. Save an input priority order, allow Bluetooth for one hour, and review confirmed switches.",
+  "primary_category": "public.app-category.utilities",
+  "secondary_category": "public.app-category.productivity",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/micanchor/support/",
+  "privacy_path": "/micanchor/privacy/",
+  "whats_new": "First release.",
+  "privacy_policy": "https://barframe.com/apps/micanchor/privacy/",
+  "support": "https://barframe.com/apps/micanchor/support/",
+  "marketing_url": "https://barframe.com/apps/micanchor/",
+  "review_notes": "MicAnchor needs no account, private hardware account or credentials. Launch normally, open its menu-bar item, and select Sample mode. Simulate Bluetooth takeover to see input restoration. Open Settings inside Sample mode to add/reorder/remove microphone priorities and inspect/clear confirmed history. Turn Guard off/on and use Allow Bluetooth mic for 1 hour and Resume Guard. Repeated takeover triggers the five-minute safety pause. Sample uses simulated hardware and isolated temporary preferences; it does not change system audio. Screenshots show these shipping views with Sample data at native size.\n\nCommand-comma opens Settings from the menu. Privacy Policy and Support open the final HTTPS pages configured in Info.plist.\n\nMicAnchor changes only the system default input. Available non-Bluetooth defaults are left alone; unavailable inputs can use an available safe fallback. Apps with explicit microphone selection may ignore the system default. Entitlement. com.apple.security.app-sandbox only. No audio capture or network service. Launch at login is optional and off by default; its system registration requires normal mode.\n\nPhysical Bluetooth intervention, closed-lid hardware behavior, call quality, minimum-OS runtime, Intel runtime remain unknown. Local gates do not establish App Store acceptance. Run the hardware validation plan in README before release.\n\nPrivacy. barframe.com/apps/micanchor/privacy/\nSupport. barframe.com/apps/micanchor/support/\nReview contact. Michael Lip, [removed], support@barframe.com.",
+  "privacyPolicyUrl": "https://theluckystrike.github.io/mac-apps/micanchor/privacy/",
+  "supportUrl": "https://theluckystrike.github.io/mac-apps/micanchor/support/",
+  "marketingUrl": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ColumnLatch",
+  "subtitle": "Check recurring CSV imports",
+  "keywords": "csv,import,supplier,contract,columns,validation,duplicates,records,quality",
+  "description": "Catch recurring CSV delivery problems before import. Save a supplier contract and check each delivery against the rules you chose.\n\nMake required and optional columns explicit. Choose text, integer, decimal or exact allowed values. Decide whether empty values are allowed and whether unexpected columns warn or fail. A unique key check identifies every repeated group without changing identifiers or losing leading zeros.\n\nReview missing fields, malformed records and invalid values by column and logical record number. Compare each completed check with the previous completed run for that contract. Incomplete checks never replace that baseline. Copy a value redacted acceptance report to share findings without source values.\n\nChoose comma, semicolon or tab for UTF8 CSV files up to 20 MB. Try the labeled Sample without selecting a file. Your source files are never modified. Rules, bookmarks and summaries stay on your Mac. No accounts, analytics or automatic network calls.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Check every recurring delivery against your supplier contract. Catch missing columns, repeated keys and invalid values before importing.",
+  "primary_category": "public.app-category.business",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/columnlatch/support/",
+  "privacy_path": "/apps/columnlatch/privacy/",
+  "whats_new": "[New] Saved supplier contracts and explicit value rules.\n[New] Duplicate key groups and completed run comparison.\n[Privacy] Value redacted acceptance reports and local processing.",
+  "privacy_policy": "https://barframe.com/apps/columnlatch/privacy/",
+  "support": "https://barframe.com/apps/columnlatch/support/"
+}

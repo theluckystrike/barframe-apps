@@ -1,0 +1,17 @@
+{
+  "name": "PageParcel",
+  "subtitle": "Plan duplex document packets",
+  "keywords": "pdf,pagination,assembly,blank,pages,print,binder,exhibit,collate,provenance",
+  "description": "Know where every document starts in a duplex packet. Arrange your PDFs, plan front side starts, and copy an assembly sheet with every planned blank page.\n\nSee a virtual page map with source filenames, local page numbers and physical sheet sides. Preview the source pages while you check the packet. Reorder documents and change front side rules without modifying your PDFs or sending anything to a printer.\n\nKeep expected page counts and review mismatches after a rescan. Locked, empty and unavailable files stay unresolved so an incomplete packet never appears ready. Saved file access can be restored with Choose again.\n\nTry the labeled Sample packet before selecting files. Your files and packet state stay on your Mac. No accounts, analytics or automatic network calls.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Plan front side document starts and trace every packet page back to its source.",
+  "primary_category": "public.app-category.productivity",
+  "secondary_category": "",
+  "price_usd": 2.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "support_path": "/apps/pageparcel/support/",
+  "privacy_path": "/apps/pageparcel/privacy/",
+  "whats_new": "[New] Virtual duplex assembly sheets\n[New] Front side rules and planned blanks\n[New] Expected page counts and source previews",
+  "privacy_policy": "https://barframe.com/apps/pageparcel/privacy/",
+  "support": "https://barframe.com/apps/pageparcel/support/"
+}

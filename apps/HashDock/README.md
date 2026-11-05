@@ -1,0 +1,40 @@
+# HashDock
+
+See which delivery copies have been checked against the same source. HashDock keeps named delivery jobs with a separate result for every recipient.
+
+![HashDock screenshot](store/screenshots/01-delivery.png)
+
+## Features
+
+- Freeze a source manifest, then verify selected destination folders with streaming SHA256 checks. Review missing, changed, extra and unreadable files. Finder metadata is excluded with visible warnings. Empty sources cannot be frozen. Offline copies remain separate from verified copies. Refreshing the source resets every previous result.
+- Copy a local delivery receipt with revision, coverage and verification times. Sample mode demonstrates a matching studio copy, a client copy with a missing file and an offline archive.
+- Your files and settings stay on your Mac. No accounts, analytics or automatic network calls. File checks detect observed changes during reading and do not create an atomic filesystem snapshot.
+
+## Requirements
+
+- macOS 14.0 or later.
+- Sandboxed.
+- Reads only the files and folders you choose. It never changes them.
+
+## Build
+
+You need Xcode 16 or later (Swift 5.9 or later).
+
+```sh
+cd apps/HashDock
+swift build -c release
+```
+
+The package depends on `../../kit/MASKit` by path. Clone the whole repository, so that the folder layout stays the same.
+
+## Privacy
+
+HashDock has no account, analytics or developer data collection. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
+
+## License
+
+MIT. See [LICENSE](../../LICENSE).

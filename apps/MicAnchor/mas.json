@@ -1,0 +1,14 @@
+{
+  "name": "MicAnchor",
+  "executable_target": "Fidelity",
+  "version": "1.0.0",
+  "build": "2",
+  "category": "public.app-category.utilities",
+  "min_os": "14.0",
+  "slug": "micanchor",
+  "entitlements": {
+    "com.apple.security.app-sandbox": true
+  },
+  "privacy_url": "https://barframe.com/apps/micanchor/privacy/",
+  "support_url": "https://barframe.com/apps/micanchor/support/"
+}

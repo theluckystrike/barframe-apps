@@ -1,0 +1,7 @@
+PageParcel Support
+
+Use Sample to explore packet planning without selecting files. Choose PDFs to grant read access. Arrange documents, set front side starts, and inspect virtual page provenance. Set expected count requires confirmation. Rescan compares counts and retains pending position changes until acknowledgement. Choose again restores unavailable file access. Clear all local data removes both packets and saved settings without deleting PDFs.
+
+Contact support@barframe.com for help.
+
+2026 Michael Lip

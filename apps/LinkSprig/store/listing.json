@@ -1,0 +1,21 @@
+{
+  "name": "LinkSprig",
+  "subtitle": "Preview broken document links",
+  "keywords": "markdown,links,move,docs,refactor,paths,images,preview,planning",
+  "description": "See which document links a proposed move would break before you change your files. Review incoming and outgoing links and copy a path change plan with original targets, replacements and line numbers.\n\nChoose a documentation folder and enter an existing file or folder path plus its proposed destination. LinkSprig simulates the move without writing to your documents. Newly broken links appear separately from targets that were already missing.\n\nInline Markdown links, images and simple reference definitions are checked locally. Unsupported syntax, symbolic links, inaccessible files and fragment validity remain clearly marked for review. External URLs are never requested.\n\nTry Sample immediately to explore a document move without selecting files. Settings include image links, excluded folders, appearance, language and a disabled by default remappable panel shortcut.\n\nYour files, bookmarks and settings stay on your Mac. No accounts, analytics, ads, cloud sync or automatic network calls. All features are included in one purchase.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Preview a document move and copy suggested link replacements before changing your documentation tree. Read access only and local processing.",
+  "privacy_url": "https://barframe.com/apps/linksprig/privacy/",
+  "support_url": "https://barframe.com/apps/linksprig/support/",
+  "privacy_policy": "https://barframe.com/apps/linksprig/privacy/",
+  "support": "https://barframe.com/apps/linksprig/support/",
+  "privacy_path": "/apps/linksprig/privacy/",
+  "support_path": "/apps/linksprig/support/",
+  "primary_category": "public.app-category.developer-tools",
+  "secondary_category": "",
+  "price_usd": 4.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "[New] Preview file and folder moves with incoming and outgoing link impact.\n[New] Copy replacement targets with source line numbers.\n[New] Explore Sample and review incomplete scan coverage.",
+  "bundle_id": "com.michaellip.linksprig",
+  "screenshots_use_sample_data": true
+}

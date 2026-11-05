@@ -1,0 +1,21 @@
+{
+  "name": "CronSpindle",
+  "subtitle": "Find schedule collisions",
+  "keywords": "cron,schedule,collision,timezone,duration,resource,planner,developer",
+  "description": "Find overlapping scheduled work before it competes for the same resource. Compare planned runtimes across time zones and preview how a schedule change affects contention.\n\nCreate jobs with numeric five field cron expressions, expected durations and shared resource labels. Inspect exact collision windows and compare a proposed expression or duration with the saved original. Repeated local hours appear as separate instants with explicit UTC offsets.\n\nChoose a finite preview of up to thirty one days. Bounded analysis marks incomplete coverage clearly. This is a workload planner. Actual schedulers may apply different daylight saving rules.\n\nExplore labeled Sample fixtures without permissions or accounts. Save your plan locally and copy an explanation when you choose. No analytics, ads or automatic network calls. All features are included in one purchase.\n\nMore Mac menu bar apps by Barframe at barframe.com",
+  "promotional_text": "Preview shared resource contention and compare a schedule change before saving your plan.",
+  "privacy_url": "https://barframe.com/apps/cronspindle/privacy/",
+  "support_url": "https://barframe.com/apps/cronspindle/support/",
+  "privacy_policy": "https://barframe.com/apps/cronspindle/privacy/",
+  "support": "https://barframe.com/apps/cronspindle/support/",
+  "privacy_path": "/apps/cronspindle/privacy/",
+  "support_path": "/apps/cronspindle/support/",
+  "primary_category": "public.app-category.developer-tools",
+  "secondary_category": "",
+  "price_usd": 2.99,
+  "age_rating": "4+",
+  "copyright": "2026 Michael Lip",
+  "whats_new": "[New] Shared resource collision planning\n[New] Proposal comparison and repeated hour previews\n[New] Local plans and labeled Sample fixtures",
+  "bundle_id": "com.michaellip.cronspindle",
+  "screenshots_use_sample_data": true
+}

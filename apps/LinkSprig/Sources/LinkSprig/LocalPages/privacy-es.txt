@@ -1,0 +1,5 @@
+LinkSprig privacidad
+
+Tus archivos, rutas, marcadores, ajustes y resultados permanecen en este Mac. LinkSprig lee solo las carpetas que eliges y nunca modifica los documentos. No recopila datos ni usa análisis, anuncios, cuentas o servicios en la nube. Sample usa documentos sintéticos separados. Borrar datos locales elimina ajustes, marcadores y resultados sin borrar tus documentos. Copiar el plan coloca su contenido en el portapapeles. Abrir una página web usa tu navegador y puede generar una solicitud web normal.
+
+Michael Lip
