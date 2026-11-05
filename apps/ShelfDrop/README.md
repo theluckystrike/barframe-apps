@@ -40,6 +40,8 @@ Shelf data stays in the app sandbox on your Mac. The app has no account, no anal
 
 This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
+More free apps and tools by the author are at https://barframe.com/projects/.
+
 ## License
 
 MIT. See [LICENSE](../../LICENSE).

@@ -1,5 +1,7 @@
 # Barframe apps
 
+Free and open source. If an app saves you time, you can support the work on [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
+
 This repository holds the source code for 29 small Mac apps by Michael Lip. Most of them run in the menu bar. NativeLedger is a regular window app. Each app is a Swift package built with SwiftUI and AppKit. Most apps share one small helper package, `kit/MASKit`.
 
 All code is under the MIT License. See [LICENSE](LICENSE).
@@ -73,6 +75,16 @@ These apps are free and open source. If one saves you time, you can support more
 - [Buy Me a Coffee](https://buymeacoffee.com/michaellip)
 
 A star on this repository also helps other people find it.
+
+## More from the author
+
+- [Zovo](https://zovo.one/). Chrome extensions and free online tools.
+- [BeLikeNative](https://www.belikenative.com/). Check your English in a Chrome side panel.
+- [NoteMods](https://notemods.com/). Open source Obsidian plugins for Bases, tables and tasks.
+- [ml0x](https://ml0x.com/). Guardrails, tests and budget caps for Claude Code agents.
+- [Axdale](https://axdale.com/). Hire an agentic full-stack developer in Warsaw.
+
+All projects by Michael Lip are listed at https://barframe.com/projects/.
 
 ## Contact
 

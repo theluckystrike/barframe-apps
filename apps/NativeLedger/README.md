@@ -41,6 +41,8 @@ Ledgers stay in the app's sandbox container on your Mac. The app makes no networ
 
 This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
+More free apps and tools by the author are at https://barframe.com/projects/.
+
 ## License
 
 MIT. See [LICENSE](../../LICENSE).
