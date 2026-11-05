@@ -10,8 +10,8 @@ from pathlib import Path
 
 APP = Path(__file__).resolve().parent.parent
 BUILD = APP / 'build'; LOGS = BUILD / 'logs'
-NAME = 'CallReady'; TEAM = '55R57JNHZX'; BID = 'com.michaellip.micanchor'
-PROFILE = Path.home() / 'mas6/profiles/micanchor.provisionprofile'
+NAME = 'CallReady'; TEAM = '55R57JNHZX'; BID = 'com.michaellip.callready'  # 1.0.2: own bundle ID (1.0.1 and older shared com.michaellip.micanchor with MicAnchor)
+PROFILE = Path.home() / 'mas6/profiles/callready.provisionprofile'  # Mac App Store builds only; Developer ID builds need no profile
 KEYCHAIN = Path.home() / 'Library/Keychains/mas6.keychain-db'; UNLOCK = Path.home() / 'mas6/signing/keychain.pw'
 APPSIGN = '3rd Party Mac Developer Application: Michael Lip (' + TEAM + ')'
 PKGSIGN = '3rd Party Mac Developer Installer: Michael Lip (' + TEAM + ')'

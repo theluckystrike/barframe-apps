@@ -16,7 +16,9 @@ CallReady is a Mac menu bar app that shows your next call, puts your preferred m
 
 ## Download
 
-Download [CallReady-1.0.1.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/callready-v1.0.1/CallReady-1.0.1.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/callready-v1.0.1) lists its SHA-256.
+Download [CallReady-1.0.2.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/callready-v1.0.2/CallReady-1.0.2.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/callready-v1.0.2) lists its SHA-256.
+
+Version 1.0.2 has its own bundle ID, `com.michaellip.callready`. Older versions shared the ID of MicAnchor. Settings from version 1.0.1 and older do not carry over, so set your preferences again after the update.
 
 ## Install with Homebrew
 
