@@ -14,6 +14,14 @@ See which delivery copies have been checked against the same source. HashDock ke
 
 Download [HashDock-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/hashdock-v1.0.0/HashDock-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/hashdock-v1.0.0) lists its SHA-256.
 
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/hashdock
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
+
 ## Requirements
 
 - macOS 14.0 or later.

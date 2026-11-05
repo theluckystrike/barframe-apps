@@ -36,11 +36,22 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 | [ReminderVault](apps/ReminderVault/) | Markdown tasks and reminders | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/remindervault-v1.0.0/ReminderVault-1.0.0.dmg) | <a href="apps/ReminderVault/"><img src="apps/ReminderVault/store/screenshots/readme-02-preview.png" width="200" alt="ReminderVault screenshot"></a> |
 | [RevPulse Revenue at a Glance](apps/RevPulse/) | Net payments in your menu bar | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/revpulse-v1.0.0/RevPulse-1.0.0.dmg) | <a href="apps/RevPulse/"><img src="apps/RevPulse/store/screenshots/readme-screenshot-01.png" width="200" alt="RevPulse screenshot"></a> |
 | [RouteLoom Connection Report](apps/RouteLoom/) | Compare connection failures | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/routeloom-v1.0.0/RouteLoom-1.0.0.dmg) | <a href="apps/RouteLoom/"><img src="apps/RouteLoom/store/screenshots/01-paired-observations.png" width="200" alt="RouteLoom screenshot"></a> |
-| [ShelfDock](apps/ShelfDrop/) | Drag & drop file staging | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/shelfdrop-v1.0.0/ShelfDrop-1.0.0.dmg) | <a href="apps/ShelfDrop/"><img src="apps/ShelfDrop/store/screenshots/readme-screenshot-01.png" width="200" alt="ShelfDrop screenshot"></a> |
+| [ShelfDock](apps/ShelfDrop/) | Drag & drop file staging | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/shelfdrop-v1.0.0/ShelfDock-1.0.0.dmg) | <a href="apps/ShelfDrop/"><img src="apps/ShelfDrop/store/screenshots/readme-screenshot-01.png" width="200" alt="ShelfDrop screenshot"></a> |
 | [Starglass Night Sky Planner](apps/Starglass/) | Cloud and moon night planner | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/starglass-v1.0.0/Starglass-1.0.0.dmg) | <a href="apps/Starglass/"><img src="apps/Starglass/store/screenshots/readme-01-tonight-score.png" width="200" alt="Starglass screenshot"></a> |
 | [StepQuay](apps/StepQuay/) | Resume your next small task | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/stepquay-v1.0.0/StepQuay-1.0.0.dmg) | <a href="apps/StepQuay/"><img src="apps/StepQuay/store/screenshots/01-resume.png" width="200" alt="StepQuay screenshot"></a> |
 
 Each app folder has a README with features, requirements, build steps and privacy notes.
+
+## Install with Homebrew
+
+Each app has a cask in the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). Use the app name in lower case. Homebrew 7 asks you to trust the tap one time before the first install.
+
+```sh
+brew trust --tap theluckystrike/barframe
+brew install --cask theluckystrike/barframe/cacheslope
+```
+
+ShelfDock is `shelfdock`. The source folder of ShelfDock is `apps/ShelfDrop`.
 
 ## Build an app
 

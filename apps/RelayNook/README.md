@@ -19,6 +19,14 @@ Codex CLI reports turn completion only. Waiting alerts depend on a hook that sen
 
 Download [RelayNook-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/relaynook-v1.0.0/RelayNook-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/relaynook-v1.0.0) lists its SHA-256.
 
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/relaynook
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
+
 ## Requirements
 
 - macOS 14.0 or later.

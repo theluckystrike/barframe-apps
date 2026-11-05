@@ -18,6 +18,14 @@ MarkShot is a Mac menu bar app that captures a screenshot and lets you mark it u
 
 Download [MarkShot-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/markshot-v1.0.0/MarkShot-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/markshot-v1.0.0) lists its SHA-256.
 
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/markshot
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
+
 ## Requirements
 
 - macOS 14.0 or later.

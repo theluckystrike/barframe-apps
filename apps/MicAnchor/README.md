@@ -15,6 +15,14 @@ MicAnchor switches your system input back to a preferred microphone when a Bluet
 
 Download [MicAnchor-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/micanchor-v1.0.0/MicAnchor-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/micanchor-v1.0.0) lists its SHA-256.
 
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/micanchor
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
+
 ## Requirements
 
 - macOS 14.0 or later.

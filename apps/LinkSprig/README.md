@@ -15,6 +15,14 @@ See which document links a proposed move would break before you change your file
 
 Download [LinkSprig-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/linksprig-v1.0.0/LinkSprig-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/linksprig-v1.0.0) lists its SHA-256.
 
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/linksprig
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
+
 ## Requirements
 
 - macOS 14.0 or later.

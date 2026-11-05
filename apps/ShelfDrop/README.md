@@ -14,7 +14,15 @@ ShelfDock is a Mac menu bar app that holds files, folders, text and images on a 
 
 ## Download
 
-Download [ShelfDrop-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/shelfdrop-v1.0.0/ShelfDrop-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The disk image contains ShelfDock.app. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/shelfdrop-v1.0.0) lists its SHA-256.
+Download [ShelfDock-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/shelfdrop-v1.0.0/ShelfDock-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/shelfdrop-v1.0.0) lists its SHA-256.
+
+## Install with Homebrew
+
+```sh
+brew install --cask theluckystrike/barframe/shelfdock
+```
+
+The cask comes from the [barframe tap](https://github.com/theluckystrike/homebrew-barframe). It installs the same signed and notarized disk image as the download link.
 
 ## Requirements
 
