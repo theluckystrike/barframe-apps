@@ -8,7 +8,7 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 
 | App | What it does | Get it | Screenshot |
 |---|---|---|---|
-| [CacheSlope](apps/CacheSlope/) | Find folders that keep growing | Build from source | <a href="apps/CacheSlope/"><img src="apps/CacheSlope/store/screenshots/01-growth.png" width="200" alt="CacheSlope screenshot"></a> |
+| [CacheSlope](apps/CacheSlope/) | Find folders that keep growing | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/cacheslope-v1.0.0/CacheSlope-1.0.0.dmg) | <a href="apps/CacheSlope/"><img src="apps/CacheSlope/store/screenshots/01-growth.png" width="200" alt="CacheSlope screenshot"></a> |
 | [CallReady](apps/CallReady/) | Next call, mic guard and mute key | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/callready-v1.0.1/CallReady-1.0.1.dmg) | <a href="apps/CallReady/"><img src="apps/CallReady/assets/AppIcon-1024.png" width="64" alt="CallReady app icon"></a> |
 | [CaptionCove](apps/CaptionCove/) | Check subtitle delivery parity | Build from source | <a href="apps/CaptionCove/"><img src="apps/CaptionCove/store/screenshots/01-delivery-matrix.png" width="200" alt="CaptionCove screenshot"></a> |
 | [CheckHarbor](apps/CheckHarbor/) | Track builds until recovery | Build from source | <a href="apps/CheckHarbor/"><img src="apps/CheckHarbor/store/screenshots/01-inbox.png" width="200" alt="CheckHarbor screenshot"></a> |
@@ -25,14 +25,14 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 | [MeetNext](apps/MeetNext/) | Meeting countdown & timeline | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/meetnext-v1.0.0/MeetNext-1.0.0.dmg) | <a href="apps/MeetNext/"><img src="apps/MeetNext/store/screenshots/readme-01-next-meeting.png" width="200" alt="MeetNext screenshot"></a> |
 | [MicAnchor](apps/MicAnchor/) | Default mic priority keeper | Build from source | <a href="apps/MicAnchor/"><img src="apps/MicAnchor/store/screenshots/01-feature.png" width="200" alt="MicAnchor screenshot"></a> |
 | [NameWeave](apps/NameWeave/) | Check filename portability | Build from source | <a href="apps/NameWeave/"><img src="apps/NameWeave/store/screenshots/01-source-risks.png" width="200" alt="NameWeave screenshot"></a> |
-| [NativeLedger](apps/NativeLedger/) | Automatic app update ledger | Build from source | <a href="apps/NativeLedger/"><img src="apps/NativeLedger/store/screenshots/01-recent-changes.png" width="200" alt="NativeLedger screenshot"></a> |
+| [NativeLedger](apps/NativeLedger/) | Automatic app update ledger | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/nativeledger-v1.0.0/NativeLedger-1.0.0.dmg) | <a href="apps/NativeLedger/"><img src="apps/NativeLedger/store/screenshots/01-recent-changes.png" width="200" alt="NativeLedger screenshot"></a> |
 | [PageParcel](apps/PageParcel/) | Plan duplex document packets | Build from source | <a href="apps/PageParcel/"><img src="apps/PageParcel/store/screenshots/01-packet.png" width="200" alt="PageParcel screenshot"></a> |
 | [PermitPeek](apps/PermitPeek/) | See app permission changes | Build from source | <a href="apps/PermitPeek/"><img src="apps/PermitPeek/store/screenshots/01-review.png" width="200" alt="PermitPeek screenshot"></a> |
 | [PortSense](apps/PortSense/) | Charger wattage & USB devices | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/portsense-v1.0.0/PortSense-1.0.0.dmg) | <a href="apps/PortSense/"><img src="apps/PortSense/store/screenshots/readme-screenshot-01.png" width="200" alt="PortSense screenshot"></a> |
 | [QuotaPace](apps/QuotaPace/) | Token pace & usage limits | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/quotapace-v1.0.0/QuotaPace-1.0.0.dmg) | <a href="apps/QuotaPace/"><img src="apps/QuotaPace/store/screenshots/readme-screenshot-01.png" width="200" alt="QuotaPace screenshot"></a> |
 | [RelayNook](apps/RelayNook/) | Coding agent alerts & hooks | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/relaynook-v1.0.0/RelayNook-1.0.0.dmg) | <a href="apps/RelayNook/"><img src="apps/RelayNook/store/screenshots/history.png" width="200" alt="RelayNook screenshot"></a> |
-| [ReminderVault](apps/ReminderVault/) | Markdown tasks and reminders | Build from source | <a href="apps/ReminderVault/"><img src="apps/ReminderVault/store/screenshots/readme-02-preview.png" width="200" alt="ReminderVault screenshot"></a> |
-| [RevPulse Revenue at a Glance](apps/RevPulse/) | Net payments in your menu bar | Build from source | <a href="apps/RevPulse/"><img src="apps/RevPulse/store/screenshots/readme-screenshot-01.png" width="200" alt="RevPulse screenshot"></a> |
+| [ReminderVault](apps/ReminderVault/) | Markdown tasks and reminders | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/remindervault-v1.0.0/ReminderVault-1.0.0.dmg) | <a href="apps/ReminderVault/"><img src="apps/ReminderVault/store/screenshots/readme-02-preview.png" width="200" alt="ReminderVault screenshot"></a> |
+| [RevPulse Revenue at a Glance](apps/RevPulse/) | Net payments in your menu bar | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/revpulse-v1.0.0/RevPulse-1.0.0.dmg) | <a href="apps/RevPulse/"><img src="apps/RevPulse/store/screenshots/readme-screenshot-01.png" width="200" alt="RevPulse screenshot"></a> |
 | [RouteLoom Connection Report](apps/RouteLoom/) | Compare connection failures | Build from source | <a href="apps/RouteLoom/"><img src="apps/RouteLoom/store/screenshots/01-paired-observations.png" width="200" alt="RouteLoom screenshot"></a> |
 | [ShelfDock](apps/ShelfDrop/) | Drag & drop file staging | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/shelfdrop-v1.0.0/ShelfDrop-1.0.0.dmg) | <a href="apps/ShelfDrop/"><img src="apps/ShelfDrop/store/screenshots/readme-screenshot-01.png" width="200" alt="ShelfDrop screenshot"></a> |
 | [Starglass Night Sky Planner](apps/Starglass/) | Cloud and moon night planner | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/starglass-v1.0.0/Starglass-1.0.0.dmg) | <a href="apps/Starglass/"><img src="apps/Starglass/store/screenshots/readme-01-tonight-score.png" width="200" alt="Starglass screenshot"></a> |
@@ -56,7 +56,7 @@ Some scripts in `apps/*/scripts` are release helpers for the author's own signin
 
 ## Status
 
-All 29 apps are free under the MIT License. 11 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
+All 29 apps are free under the MIT License. 15 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
 
 These apps were made for the Mac App Store. Apple rejected them under guideline 4.3 after too many submissions from a new account, so they are published here instead. The full story is at https://barframe.com/open-source/.
 
