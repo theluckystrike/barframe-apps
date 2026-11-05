@@ -22,7 +22,7 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 | [KeyOverlap](apps/KeyOverlap/) | Check shortcut plan conflicts | Build from source | <a href="apps/KeyOverlap/"><img src="apps/KeyOverlap/store/screenshots/01-scope-plan.png" width="200" alt="KeyOverlap screenshot"></a> |
 | [LinkSprig](apps/LinkSprig/) | Preview broken document links | Build from source | <a href="apps/LinkSprig/"><img src="apps/LinkSprig/store/screenshots/01-move-preview.png" width="200" alt="LinkSprig screenshot"></a> |
 | [MarkShot Screenshot Markup](apps/MarkShot/) | Arrows, annotations and steps | Build from source | <a href="apps/MarkShot/"><img src="apps/MarkShot/store/screenshots/01-markshot.png" width="200" alt="MarkShot screenshot"></a> |
-| [MeetNext](apps/MeetNext/) | Meeting countdown & timeline | Build from source | <a href="apps/MeetNext/"><img src="apps/MeetNext/store/screenshots/readme-01-next-meeting.png" width="200" alt="MeetNext screenshot"></a> |
+| [MeetNext](apps/MeetNext/) | Meeting countdown & timeline | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/meetnext-v1.0.0/MeetNext-1.0.0.dmg) | <a href="apps/MeetNext/"><img src="apps/MeetNext/store/screenshots/readme-01-next-meeting.png" width="200" alt="MeetNext screenshot"></a> |
 | [MicAnchor](apps/MicAnchor/) | Default mic priority keeper | Build from source | <a href="apps/MicAnchor/"><img src="apps/MicAnchor/store/screenshots/01-feature.png" width="200" alt="MicAnchor screenshot"></a> |
 | [NameWeave](apps/NameWeave/) | Check filename portability | Build from source | <a href="apps/NameWeave/"><img src="apps/NameWeave/store/screenshots/01-source-risks.png" width="200" alt="NameWeave screenshot"></a> |
 | [NativeLedger](apps/NativeLedger/) | Automatic app update ledger | Build from source | <a href="apps/NativeLedger/"><img src="apps/NativeLedger/store/screenshots/01-recent-changes.png" width="200" alt="NativeLedger screenshot"></a> |
@@ -30,7 +30,7 @@ All code is under the MIT License. See [LICENSE](LICENSE).
 | [PermitPeek](apps/PermitPeek/) | See app permission changes | Build from source | <a href="apps/PermitPeek/"><img src="apps/PermitPeek/store/screenshots/01-review.png" width="200" alt="PermitPeek screenshot"></a> |
 | [PortSense](apps/PortSense/) | Charger wattage & USB devices | Build from source | <a href="apps/PortSense/"><img src="apps/PortSense/store/screenshots/readme-screenshot-01.png" width="200" alt="PortSense screenshot"></a> |
 | [QuotaPace](apps/QuotaPace/) | Token pace & usage limits | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/quotapace-v1.0.0/QuotaPace-1.0.0.dmg) | <a href="apps/QuotaPace/"><img src="apps/QuotaPace/store/screenshots/readme-screenshot-01.png" width="200" alt="QuotaPace screenshot"></a> |
-| [RelayNook](apps/RelayNook/) | Coding agent alerts & hooks | Build from source | <a href="apps/RelayNook/"><img src="apps/RelayNook/store/screenshots/history.png" width="200" alt="RelayNook screenshot"></a> |
+| [RelayNook](apps/RelayNook/) | Coding agent alerts & hooks | [Download](https://github.com/theluckystrike/barframe-apps/releases/download/relaynook-v1.0.0/RelayNook-1.0.0.dmg) | <a href="apps/RelayNook/"><img src="apps/RelayNook/store/screenshots/history.png" width="200" alt="RelayNook screenshot"></a> |
 | [ReminderVault](apps/ReminderVault/) | Markdown tasks and reminders | Build from source | <a href="apps/ReminderVault/"><img src="apps/ReminderVault/store/screenshots/readme-02-preview.png" width="200" alt="ReminderVault screenshot"></a> |
 | [RevPulse Revenue at a Glance](apps/RevPulse/) | Net payments in your menu bar | Build from source | <a href="apps/RevPulse/"><img src="apps/RevPulse/store/screenshots/readme-screenshot-01.png" width="200" alt="RevPulse screenshot"></a> |
 | [RouteLoom Connection Report](apps/RouteLoom/) | Compare connection failures | Build from source | <a href="apps/RouteLoom/"><img src="apps/RouteLoom/store/screenshots/01-paired-observations.png" width="200" alt="RouteLoom screenshot"></a> |
@@ -56,7 +56,7 @@ Some scripts in `apps/*/scripts` are release helpers for the author's own signin
 
 ## Status
 
-All 29 apps are free under the MIT License. 4 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
+All 29 apps are free under the MIT License. 6 of them have a signed download that Apple has notarized, so they open without warnings. Each download is on the [Releases](https://github.com/theluckystrike/barframe-apps/releases) page with its SHA-256.
 
 These apps were made for the Mac App Store. Apple rejected them under guideline 4.3 after too many submissions from a new account, so they are published here instead. The full story is at https://barframe.com/open-source/.
 
