@@ -2,7 +2,7 @@
 
 PortSense is a Mac menu bar app that shows the charger capacity, battery details and USB connections that macOS reports.
 
-![PortSense Power tab with sample data, showing a 65 W charger, a below-rating warning and battery charge](store/screenshots/readme-screenshot-01.png)
+<img src="store/screenshots/readme-screenshot-01.png" alt="PortSense Power tab with sample data, showing a 65 W charger, a below-rating warning and battery charge">
 
 ## Features
 
@@ -11,6 +11,10 @@ PortSense is a Mac menu bar app that shows the charger capacity, battery details
 - Shows battery charge, health, cycle count, full charge capacity compared with design capacity, signed battery power, temperature and a time estimate.
 - Lists USB devices with vendor, link speed ceiling, bus allocation and port current limit, and flags a USB 3 device at a USB 2 link ceiling. Also lists Thunderbolt devices. You can hide built-in devices.
 - Keeps up to 60 recent charger readings in memory and charts them. It polls every 15 seconds and shows a failed read as a gap with a retry button. Sample mode lets you try all three tabs without attached hardware.
+
+## Download
+
+Download [PortSense-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/portsense-v1.0.0/PortSense-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/portsense-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -31,6 +35,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 PortSense reads charger, battery and USB information locally. It has no account and no analytics, and charger history resets when you quit. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

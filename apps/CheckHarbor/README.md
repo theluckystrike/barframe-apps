@@ -2,9 +2,9 @@
 
 CheckHarbor is a Mac menu bar app that keeps failed GitHub Actions runs visible until a matching run succeeds.
 
-![CheckHarbor recovery inbox with two unresolved sample failures](store/screenshots/01-inbox.png)
+<img src="store/screenshots/01-inbox.png" alt="CheckHarbor recovery inbox with two unresolved sample failures">
 
-![CheckHarbor Recovered list with a sample failure and its recovery run](store/screenshots/02-recovery.png)
+<img src="store/screenshots/02-recovery.png" alt="CheckHarbor Recovered list with a sample failure and its recovery run">
 
 ## Features
 
@@ -13,6 +13,10 @@ CheckHarbor is a Mac menu bar app that keeps failed GitHub Actions runs visible 
 - Links to the first failure, the latest failure and the recovery run on github.com.
 - Shows stale data, authentication errors and rate limit backoff. A global shortcut (Shift Command H by default) opens the unresolved list.
 - Includes Sample mode with fictional workflows. Sample mode makes no network requests.
+
+## Download
+
+Download [CheckHarbor-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/checkharbor-v1.0.0/CheckHarbor-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/checkharbor-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -34,6 +38,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 Repository names, run data and episodes stay on your Mac, and the optional token stays in the Keychain. Requests go only to api.github.com, and the app never fetches source code or workflow logs. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

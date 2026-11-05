@@ -2,7 +2,7 @@
 
 CostBar is a Mac menu bar app that shows the AI API costs that OpenRouter, Anthropic and OpenAI report for your accounts.
 
-![CostBar popover with sample OpenRouter costs, a monthly budget and a month-end forecast](store/screenshots/readme-build-3-04-provider-costs.png)
+<img src="store/screenshots/readme-build-3-04-provider-costs.png" alt="CostBar popover with sample OpenRouter costs, a monthly budget and a month-end forecast">
 
 ## Features
 
@@ -11,6 +11,10 @@ CostBar is a Mac menu bar app that shows the AI API costs that OpenRouter, Anthr
 - Sets a monthly budget for each provider with an alert threshold. Alerts are local notifications. Budgets do not stop spending.
 - Accounts and credits keeps several accounts apart. You can record dated credit grants with expiry and workload eligibility, and see the eligible total for one workload.
 - Imports a JSON Lines log file you choose, up to 5 MB, for a token estimate. Exports a redacted JSON report with salted account pseudonyms.
+
+## Download
+
+Download [CostBar-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/costbar-v1.0.0/CostBar-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/costbar-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -33,6 +37,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 Keys stay in the macOS Keychain and go only to the provider you selected. Totals, settings and account records stay on your Mac, and CostBar sends nothing to the developer. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

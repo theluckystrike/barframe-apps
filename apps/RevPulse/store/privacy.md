@@ -13,5 +13,5 @@ Sample data is generated locally and contains no real customer details. Automati
 
 Support and website buttons open your browser. The websites have their own hosting logs and policies. The complete policy is always available here offline, even if the hosted copy is older or unavailable.
 
-Contact: Michael Lip — support@barframe.com
+Contact Michael Lip at support@barframe.com.
 © 2026 Michael Lip

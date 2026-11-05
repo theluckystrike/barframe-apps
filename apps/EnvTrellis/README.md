@@ -2,7 +2,7 @@
 
 Catch missing environment keys before a release. Save required, optional and forbidden key rules for each environment and review a report that never exposes values.
 
-![EnvTrellis screenshot](store/screenshots/01-readiness.png)
+<img src="store/screenshots/01-readiness.png" alt="EnvTrellis screenshot">
 
 ## Features
 
@@ -11,6 +11,10 @@ Catch missing environment keys before a release. Save required, optional and for
 - Pin a project in the menu bar, adjust rules in a native matrix and copy a release readiness report with key names, presence, outcomes and line numbers. Mask project and environment labels when sharing. Values are never displayed, saved or copied by the app.
 - Try the clearly labeled Sample project immediately without granting file access. Settings include a remappable opening shortcut, appearance, English and Spanish interface text and optional launch at login, off by default.
 - Your files and settings stay on your Mac. No accounts, analytics, cloud sync or automatic network calls. Inputs are never edited. Clearing local data removes saved projects, rules and access bookmarks while keeping your source files.
+
+## Download
+
+Download [EnvTrellis-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/envtrellis-v1.0.0/EnvTrellis-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/envtrellis-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

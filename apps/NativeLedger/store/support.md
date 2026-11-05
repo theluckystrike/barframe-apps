@@ -64,4 +64,4 @@ NativeLedger records changes while it is open. It reads the folders and apps you
 
 Settings sets the age after which an inspection counts as stale, and turns alerts on or off. Remove deletes a ledger and its saved access. Settings also has the privacy and support links.
 
-For help, use the support link on the App Store product page. This bundled guide is available offline.
+For help, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com. This bundled guide is available offline.

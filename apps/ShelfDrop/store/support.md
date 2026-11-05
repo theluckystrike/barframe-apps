@@ -10,4 +10,4 @@ Settings opens with Command-comma or the shelf menu. Launch at login reflects th
 
 A Missing hint means the original is unavailable. Restore it or remove the entry. A Permission hint means you should remove the entry and drop the original again. Reopen the row action after restoring a file. Bookmarks are refreshed when stale references resolve. Text and image payloads are stored in the container; references point to originals. The app container may survive deleting the app.
 
-The app performs no analytics or background uploads. Sharing can send data to a device or service when you choose it. For assistance, use the current Support URL on the App Store page. Copyright © 2026 Michael Lip.
+The app performs no analytics or background uploads. Sharing can send data to a device or service when you choose it. For help, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com. Copyright © 2026 Michael Lip.

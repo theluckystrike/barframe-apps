@@ -2,13 +2,17 @@
 
 See which delivery copies have been checked against the same source. HashDock keeps named delivery jobs with a separate result for every recipient.
 
-![HashDock screenshot](store/screenshots/01-delivery.png)
+<img src="store/screenshots/01-delivery.png" alt="HashDock screenshot">
 
 ## Features
 
 - Freeze a source manifest, then verify selected destination folders with streaming SHA256 checks. Review missing, changed, extra and unreadable files. Finder metadata is excluded with visible warnings. Empty sources cannot be frozen. Offline copies remain separate from verified copies. Refreshing the source resets every previous result.
 - Copy a local delivery receipt with revision, coverage and verification times. Sample mode demonstrates a matching studio copy, a client copy with a missing file and an offline archive.
 - Your files and settings stay on your Mac. No accounts, analytics or automatic network calls. File checks detect observed changes during reading and do not create an atomic filesystem snapshot.
+
+## Download
+
+Download [HashDock-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/hashdock-v1.0.0/HashDock-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/hashdock-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

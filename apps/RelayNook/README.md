@@ -2,8 +2,8 @@
 
 RelayNook is a Mac menu bar app that receives events from coding agents and alerts you when a session needs input or finishes.
 
-![RelayNook popover with a waiting count and sample event history](store/screenshots/history.png)
-![RelayNook Setup tab with a Terminal test command and hook snippets](store/screenshots/setup.png)
+<img src="store/screenshots/history.png" alt="RelayNook popover with a waiting count and sample event history">
+<img src="store/screenshots/setup.png" alt="RelayNook Setup tab with a Terminal test command and hook snippets">
 
 ## Features
 
@@ -14,6 +14,10 @@ RelayNook is a Mac menu bar app that receives events from coding agents and aler
 - Includes Sample mode, a Send test event button and a Terminal test command that needs no install.
 
 Codex CLI reports turn completion only. Waiting alerts depend on a hook that sends waiting events.
+
+## Download
+
+Download [RelayNook-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/relaynook-v1.0.0/RelayNook-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/relaynook-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -34,6 +38,10 @@ The Swift package and module are named AgentPing.
 ## Privacy
 
 Event history, the installation token and preferences stay on your Mac. The app has no account, analytics or remote event service, and does not read agent configuration or transcript files. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

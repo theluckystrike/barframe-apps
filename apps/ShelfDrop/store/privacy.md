@@ -8,4 +8,4 @@ Remove an item or clear the shelf to delete its saved payload or reference, with
 
 Sharing is always user initiated through system services. Depending on the service you select, it can transfer your data to another device or service. Policy and support buttons open the configured website; bundled local text is shown when a valid destination is not configured. These browser and system actions are separate from background app networking.
 
-For help, use Support in Settings or the App Store product page. Copyright © 2026 Michael Lip.
+For help, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com. Copyright © 2026 Michael Lip.

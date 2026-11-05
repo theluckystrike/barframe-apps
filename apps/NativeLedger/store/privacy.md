@@ -42,4 +42,4 @@ To delete the ledger of one app, select the app and choose Remove. Remove delete
 
 The privacy and support links in Settings open these pages in your default browser. The website receives the normal browser request.
 
-For help, use the support link on the App Store product page. This bundled copy is available offline.
+For help, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com. This bundled copy is available offline.

@@ -2,7 +2,7 @@
 
 MeetNext is a Mac menu bar app that shows your next meeting with a live countdown and a Join button.
 
-![MeetNext popover with sample events, showing today's timeline, the next meeting with a Join Google Meet button and the next five events](store/screenshots/readme-01-next-meeting.png)
+<img src="store/screenshots/readme-01-next-meeting.png" alt="MeetNext popover with sample events, showing today's timeline, the next meeting with a Join Google Meet button and the next five events">
 
 ## Features
 
@@ -11,6 +11,10 @@ MeetNext is a Mac menu bar app that shows your next meeting with a live countdow
 - Reads events for today and tomorrow from the calendars you choose in Settings. It leaves out all-day events and events with no duration.
 - Sends optional local reminders 5, 10 or 15 minutes before a meeting.
 - Includes sample mode with example events, so you can try the app without calendar access.
+
+## Download
+
+Download [MeetNext-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/meetnext-v1.0.0/MeetNext-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/meetnext-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -32,6 +36,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 MeetNext processes calendar events on your Mac and keeps their contents in memory. It has no account, analytics or developer data collection. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

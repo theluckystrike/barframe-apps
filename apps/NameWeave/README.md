@@ -2,7 +2,7 @@
 
 Catch filename conflicts before handing a folder to another platform. NameWeave audits your selected folder and helps you build a replacement plan without changing source files.
 
-![NameWeave screenshot](store/screenshots/01-source-risks.png)
+<img src="store/screenshots/01-source-risks.png" alt="NameWeave screenshot">
 
 ## Features
 
@@ -10,6 +10,10 @@ Catch filename conflicts before handing a folder to another platform. NameWeave 
 - Preview replacement names across the whole tree. Edit suggestions and see conflicts created by repairs themselves, including renamed parent folders. Resolve candidates and copy a before and after plan with reasons and remaining conflicts. A plan is Ready only after complete coverage and no unresolved destination issues.
 - Set a destination prefix and an optional legacy path budget. Inaccessible folders, symbolic links, exclusions and scan limits remain visible as incomplete coverage. Hidden items are skipped and packages are reviewed as single items. Skipped dependency contents remain visible as incomplete coverage. Choose a folder with the standard file picker, save access locally and rescan when needed.
 - Explore labeled Sample mode immediately. All processing stays on your Mac. There are no accounts, analytics, ads or automatic network calls.
+
+## Download
+
+Download [NameWeave-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/nameweave-v1.0.0/NameWeave-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/nameweave-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

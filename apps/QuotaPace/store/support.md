@@ -8,4 +8,4 @@ Launch at Login is optional. If system approval is pending, approve the app in L
 
 Bundled help is available offline from About > Support. For missing usage, reconnect the selected log folder and use Refresh. For privacy cleanup, use Disconnect in Settings for each connected format. This removes saved folder permission and cached counts while preserving source files and budgets. QuotaPace sends no data to the developer.
 
-Publisher: Michael Lip. A verified support and privacy contact channel has not been configured. Public support contact must be completed before App Store submission.
+Publisher: Michael Lip. For help, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com.

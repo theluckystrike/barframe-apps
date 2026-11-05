@@ -2,13 +2,17 @@
 
 Catch recurring CSV delivery problems before import. Save a supplier contract and check each delivery against the rules you chose.
 
-![ColumnLatch screenshot](store/screenshots/01-check-delivery.png)
+<img src="store/screenshots/01-check-delivery.png" alt="ColumnLatch screenshot">
 
 ## Features
 
 - Make required and optional columns explicit. Choose text, integer, decimal or exact allowed values. Decide whether empty values are allowed and whether unexpected columns warn or fail. A unique key check identifies every repeated group without changing identifiers or losing leading zeros.
 - Review missing fields, malformed records and invalid values by column and logical record number. Compare each completed check with the previous completed run for that contract. Incomplete checks never replace that baseline. Copy a value redacted acceptance report to share findings without source values.
 - Choose comma, semicolon or tab for UTF8 CSV files up to 20 MB. Try the labeled Sample without selecting a file. Your source files are never modified. Rules, bookmarks and summaries stay on your Mac. No accounts, analytics or automatic network calls.
+
+## Download
+
+Download [ColumnLatch-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/columnlatch-v1.0.0/ColumnLatch-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/columnlatch-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

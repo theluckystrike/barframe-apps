@@ -2,7 +2,7 @@
 
 ReminderVault is a Mac menu bar app that syncs Markdown checkbox tasks in a folder with your selected Apple Reminders lists.
 
-![ReminderVault dry-run preview with sample tasks, showing vault and Reminders values before the sync](store/screenshots/readme-02-preview.png)
+<img src="store/screenshots/readme-02-preview.png" alt="ReminderVault dry-run preview with sample tasks, showing vault and Reminders values before the sync">
 
 ## Features
 
@@ -13,6 +13,10 @@ ReminderVault is a Mac menu bar app that syncs Markdown checkbox tasks in a fold
 - The menu lists pending tasks due today or earlier, and undated tasks. Check one off to write the completion back. After you apply a preview, it can sync every minute, every 5 or 15 minutes, or every hour. A failure pauses automatic sync.
 
 A Sample vault lets you try the app. It never touches your reminders.
+
+## Download
+
+Download [ReminderVault-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/remindervault-v1.0.0/ReminderVault-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/remindervault-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -34,6 +38,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 Task processing happens on your Mac. The app has no accounts, analytics or sync server. Your vault storage provider and your Reminders account may sync data on their own. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

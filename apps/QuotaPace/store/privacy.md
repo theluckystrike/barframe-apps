@@ -10,8 +10,8 @@ QuotaPace has no network entitlement, analytics, advertising, tracking, or devel
 
 Launch at Login is optional and off by default. Enabling it registers the app with the system's login item service. You can disable it in QuotaPace Settings or in system Login Items.
 
-The UI offers a clearly labeled Sample mode using bundled synthetic records shifted to the current time. Sample budgets and records stay in memory and do not replace saved live budgets or grants. App Store screenshots always use neutral synthetic values labeled "Sample data". Smoke mode creates and removes temporary fixture copies inside the sandbox and writes a local diagnostic report containing counts and check results, without conversation content.
+The UI offers a clearly labeled Sample mode using bundled synthetic records shifted to the current time. Sample budgets and records stay in memory and do not replace saved live budgets or grants. Published screenshots always use neutral synthetic values labeled "Sample data". Smoke mode creates and removes temporary fixture copies inside the sandbox and writes a local diagnostic report containing counts and check results, without conversation content.
 
 To remove QuotaPace's access and cached usage, use Disconnect in Settings for each connected format. To stop login registration, turn Launch at Login off. Your original logs stay in their selected folders.
 
-Publisher: Michael Lip. The bundled Support page explains local troubleshooting and data removal. A verified support and privacy contact channel has not been configured and must be completed before App Store submission.
+Publisher: Michael Lip. The bundled Support page explains local troubleshooting and data removal. For privacy questions, open an issue at https://github.com/theluckystrike/barframe-apps/issues or email support@barframe.com.

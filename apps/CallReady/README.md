@@ -2,7 +2,9 @@
 
 CallReady is a Mac menu bar app that shows your next call, puts your preferred microphone back when a Bluetooth headset takes over, and mutes the microphone with one shortcut.
 
-![CallReady app icon](assets/AppIcon-1024.png)
+<img src="store/screenshots/01-next-call-ready.png" alt="CallReady menu with the next call, microphone guard and mute controls">
+
+<img src="store/screenshots/03-settings-next-call-microphone.png" alt="CallReady Settings with next call and microphone options">
 
 ## Features
 
@@ -14,7 +16,7 @@ CallReady is a Mac menu bar app that shows your next call, puts your preferred m
 
 ## Download
 
-A notarized build is on the [CallReady 1.0.1 release page](https://github.com/theluckystrike/barframe-apps/releases/tag/callready-v1.0.1).
+Download [CallReady-1.0.1.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/callready-v1.0.1/CallReady-1.0.1.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/callready-v1.0.1) lists its SHA-256.
 
 ## Requirements
 
@@ -35,7 +37,11 @@ swift build -c release
 
 ## Privacy
 
-Calendar events and settings stay on your Mac. CallReady collects no data, has no analytics and makes no network connections of its own. It never records or listens to audio.
+Calendar events and settings stay on your Mac. CallReady collects no data, has no analytics and makes no network connections of its own. It never records or listens to audio. Full policy: [barframe.com/apps/callready/privacy](https://barframe.com/apps/callready/privacy/).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

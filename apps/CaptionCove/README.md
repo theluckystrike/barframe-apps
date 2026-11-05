@@ -2,7 +2,7 @@
 
 Catch missing or shifted subtitle cues across language deliveries before handing over your final files.
 
-![CaptionCove screenshot](store/screenshots/01-delivery-matrix.png)
+<img src="store/screenshots/01-delivery-matrix.png" alt="CaptionCove screenshot">
 
 ## Features
 
@@ -11,6 +11,10 @@ Catch missing or shifted subtitle cues across language deliveries before handing
 - Save a pinned project with file bookmarks and rules. Rescan when ready and review the latest state in the menu bar. Resolved stale bookmarks are renewed. If file access is unavailable, choose the file again. Other readable languages remain in the matrix. Reports omit dialogue text by default and can be copied locally with an explicit option to include text.
 - See Sample to explore synthetic deliveries without selecting files. English and Spanish interface options are included. Customize the panel shortcut and appearance in Settings.
 - Your files and settings stay on your Mac. No accounts, ads, analytics or automatic network calls. Clear stored references and summaries without deleting source files.
+
+## Download
+
+Download [CaptionCove-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/captioncove-v1.0.0/CaptionCove-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/captioncove-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

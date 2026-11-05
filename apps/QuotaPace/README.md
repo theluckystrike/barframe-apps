@@ -2,7 +2,7 @@
 
 QuotaPace is a Mac menu bar app that counts tokens in your local Claude Code and Codex session logs and compares them with budgets you set.
 
-![QuotaPace popover with sample data, showing rolling five-hour and seven-day token usage and current pace](store/screenshots/readme-screenshot-01.png)
+<img src="store/screenshots/readme-screenshot-01.png" alt="QuotaPace popover with sample data, showing rolling five-hour and seven-day token usage and current pace">
 
 ## Features
 
@@ -11,6 +11,10 @@ QuotaPace is a Mac menu bar app that counts tokens in your local Claude Code and
 - Lets you set a five-hour and a seven-day token budget for each log format. These are your own numbers, not provider plan limits.
 - Estimates your current pace and the time to your five-hour limit. The forecast accounts for old usage that leaves the rolling window. Pace details shows observed activity and projected usage.
 - Includes sample mode with synthetic usage, so you can try every view without your logs.
+
+## Download
+
+Download [QuotaPace-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/quotapace-v1.0.0/QuotaPace-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/quotapace-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -32,6 +36,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 QuotaPace parses logs in memory and does not keep conversation text. Budgets, recent token counts and folder bookmarks stay in its sandbox container, and it sends nothing to the developer. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

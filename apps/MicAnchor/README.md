@@ -2,7 +2,7 @@
 
 MicAnchor switches your system input back to a preferred microphone when a Bluetooth microphone takes over. It chooses the first available non-Bluetooth input in your saved priority order and leaves an available non-Bluetooth default input alone.
 
-![MicAnchor screenshot](store/screenshots/01-feature.png)
+<img src="store/screenshots/01-feature.png" alt="MicAnchor screenshot">
 
 ## Features
 
@@ -10,6 +10,10 @@ MicAnchor switches your system input back to a preferred microphone when a Bluet
 - You can pause the guard or allow a headset microphone for one hour. After three input-write attempts in 30 seconds, another required write pauses the guard for five minutes. Failed switches show a Retry option. Open the history to see recent switches and their reasons, or clear it.
 - MicAnchor never records audio. It changes the system default input, which apps with their own microphone selection may ignore. You need a separate available microphone, and audio quality depends on your headphones and calling app.
 - Preferences and a bounded switch history stay on your Mac. No account is needed. Sample mode lets you try switching and preferences without changing system audio, and Launch at Login stays off unless you enable it.
+
+## Download
+
+Download [MicAnchor-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/micanchor-v1.0.0/MicAnchor-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/micanchor-v1.0.0) lists its SHA-256.
 
 ## Requirements
 

@@ -1,7 +1,7 @@
 import json, subprocess, time
 from pathlib import Path
 APP = Path(__file__).resolve().parents[1]
-EVIDENCE = Path('/Users/mike/mas9/units/B-EnvTrellis/research/raw/native_ui_2026-10-14.json')
+EVIDENCE = APP / 'build' / 'native_ui_smoke.json'
 STATE = Path.home() / 'Library/Containers/com.michaellip.envtrellis/Data/Library/Application Support/EnvTrellis/live.json'
 checks = {'normal_launch': True, 'command_comma_settings': True, 'sample_toggle_in_settings': True, 'launch_at_login_initially_off': True}
 def apple(source):
@@ -69,6 +69,7 @@ try:
     apple('tell application "EnvTrellis" to quit')
 except Exception as exc:
     checks['error'] = str(exc)
+EVIDENCE.parent.mkdir(parents=True, exist_ok=True)
 EVIDENCE.write_text(json.dumps(checks, indent=2) + '\n')
 print(json.dumps(checks, indent=2))
 raise SystemExit(0 if all(v is True for v in checks.values()) else 1)

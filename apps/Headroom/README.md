@@ -2,9 +2,9 @@
 
 Headroom Agent Memory is a Mac menu bar app that estimates how many more coding agents fit in your Mac's memory.
 
-![Headroom dashboard with sample data showing room for 5 more agents at normal memory pressure](store/screenshots/headroom-1.png)
+<img src="store/screenshots/headroom-1.png" alt="Headroom dashboard with sample data showing room for 5 more agents at normal memory pressure">
 
-![Headroom dashboard with sample data showing 0 more agents because swap is in use](store/screenshots/headroom-2.png)
+<img src="store/screenshots/headroom-2.png" alt="Headroom dashboard with sample data showing 0 more agents because swap is in use">
 
 ## Features
 
@@ -13,6 +13,10 @@ Headroom Agent Memory is a Mac menu bar app that estimates how many more coding 
 - Detects coding agents that run as your user by their executable name, such as claude, codex, gemini, aider and opencode. Script-hosted or unknown agents can be missed.
 - Adds up the resident memory of the detected process trees. The value is marked partial when some processes cannot be read.
 - Includes Sample mode with three scenarios: Balanced, Under pressure and Room to grow.
+
+## Download
+
+Download [Headroom-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/headroom-v1.0.0/Headroom-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/headroom-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -31,6 +35,10 @@ swift build -c release
 ## Privacy
 
 Memory statistics and process details are read on your Mac. Process names, paths and arguments are not saved or sent, and the app has no network access. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

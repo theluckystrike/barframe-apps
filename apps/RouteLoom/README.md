@@ -2,8 +2,8 @@
 
 RouteLoom is a Mac menu bar app that checks a reference endpoint and a work endpoint together, so you can see which side fails during a connection incident.
 
-![RouteLoom window with sample sessions, the latest incident and paired observations](store/screenshots/01-paired-observations.png)
-![RouteLoom support report preview with hostnames and timestamped results](store/screenshots/02-support-report.png)
+<img src="store/screenshots/01-paired-observations.png" alt="RouteLoom window with sample sessions, the latest incident and paired observations">
+<img src="store/screenshots/02-support-report.png" alt="RouteLoom support report preview with hostnames and timestamped results">
 
 ## Features
 
@@ -12,6 +12,10 @@ RouteLoom is a Mac menu bar app that checks a reference endpoint and a work endp
 - Previews a support report before you copy it. The report includes hostnames but not URL paths or query strings.
 - Compares a recent session with an earlier one saved on your Mac. Keeps 5, 20 or 50 recent sessions.
 - Opens the current incident with Control Option R or Command Shift R, or you can turn the shortcut off. Includes Sample mode with timeout, TLS, offline and other cases, and English and Spanish text.
+
+## Download
+
+Download [RouteLoom-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/routeloom-v1.0.0/RouteLoom-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/routeloom-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -32,6 +36,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 Endpoint settings and history stay in the app sandbox on your Mac. Requests go only to your two endpoints during a live session. The app has no telemetry, analytics or account. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 

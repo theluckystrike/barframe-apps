@@ -2,8 +2,8 @@
 
 StepQuay is a Mac menu bar app that keeps your next small action and a resume note in view, so you can return to it after an interruption.
 
-![StepQuay panel with a paused sample action, remaining effort and a resume note](store/screenshots/01-resume.png)
-![StepQuay action queue showing which sample actions fit in 10 available minutes](store/screenshots/02-budget.png)
+<img src="store/screenshots/01-resume.png" alt="StepQuay panel with a paused sample action, remaining effort and a resume note">
+<img src="store/screenshots/02-budget.png" alt="StepQuay action queue showing which sample actions fit in 10 available minutes">
 
 ## Features
 
@@ -12,6 +12,10 @@ StepQuay is a Mac menu bar app that keeps your next small action and a resume no
 - Interrupting an action asks for a short resume note. The note is shown when you come back. Sleep pauses timing until you resume.
 - When the estimate runs out, the action stays open. You can continue, revise the remaining time or defer it. Finish when you are done, and undo a completion if needed. Local history keeps estimated time, active time and notes for 7, 30 or 90 days, or forever.
 - Opens the panel with Command Option K by default, or another combination in Settings. In the panel, Command Return starts, Command I interrupts, Command R resumes and Command F finishes. Includes Sample mode and English and Spanish text.
+
+## Download
+
+Download [StepQuay-1.0.0.dmg](https://github.com/theluckystrike/barframe-apps/releases/download/stepquay-v1.0.0/StepQuay-1.0.0.dmg) for macOS 14 or later. It is signed with Developer ID and notarized by Apple. The [release page](https://github.com/theluckystrike/barframe-apps/releases/tag/stepquay-v1.0.0) lists its SHA-256.
 
 ## Requirements
 
@@ -32,6 +36,10 @@ The package depends on `../../kit/MASKit` by path. Clone the whole repository, s
 ## Privacy
 
 Actions, notes and history stay in the app sandbox on your Mac. The app makes no network requests and has no accounts or analytics. Full policy: [store/privacy.md](store/privacy.md).
+
+## Support this work
+
+This app is free and open source. If it saves you time, you can support more apps like it through [GitHub Sponsors](https://github.com/sponsors/theluckystrike), [PayPal](https://paypal.me/najzzz) or [Buy Me a Coffee](https://buymeacoffee.com/michaellip).
 
 ## License
 
