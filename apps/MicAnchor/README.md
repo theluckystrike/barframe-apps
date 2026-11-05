@@ -31,6 +31,16 @@ swift build -c release
 
 The package depends on `../../kit/MASKit` by path. Clone the whole repository, so that the folder layout stays the same.
 
+## Tests
+
+Run `swift test` in `apps/MicAnchor`. With only the Command Line Tools installed, add the Testing framework path as shown below. All 63 tests pass (November 2026).
+
+```sh
+DEV=/Library/Developer/CommandLineTools/Library/Developer
+swift test -Xswiftc -F"$DEV/Frameworks" -Xlinker -F"$DEV/Frameworks" \
+  -Xlinker -rpath -Xlinker "$DEV/Frameworks" -Xlinker -rpath -Xlinker "$DEV/usr/lib"
+```
+
 ## Privacy
 
 MicAnchor has no account, analytics or developer data collection. Full policy: [store/privacy.md](store/privacy.md).
