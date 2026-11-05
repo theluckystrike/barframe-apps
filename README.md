@@ -53,6 +53,16 @@ These apps were made for the Mac App Store. They are not on sale there now. The 
 
 - Website: https://barframe.com/open-source/
 
+## Support this work
+
+These apps are free and open source. If one saves you time, you can support more of them:
+
+- [GitHub Sponsors](https://github.com/sponsors/theluckystrike)
+- [PayPal](https://paypal.me/najzzz)
+- [Buy Me a Coffee](https://buymeacoffee.com/michaellip)
+
+A star on this repository also helps other people find it.
+
 ## Contact
 
 Open an issue in this repository. Email: support@barframe.com.
